@@ -168,15 +168,15 @@ export default class About extends Component {
               </div>
             </div>
             <div className="row mb-5 mr-2 ml-2">
-              <h2 className="big-font text-dark mb-5"> MultiMedia and Architecture </h2>
+              <h2 className="big-font text-dark mb-5"> Multimedia and Architecture </h2>
               <div className="row">
                 <Profile 
-                  image="leads/yuying.jpg" 
-                  memberName="YuYing Liang" 
+                  image="leads/tingyu.jpg" 
+                  memberName="Tingyu Liang" 
                   role="Webmaster"
-                  discipline="Engineering Science (Robotics Option), 3rd year" 
-                  linkedin="https://www.linkedin.com/in/yuying-liang/"
-                  blurb="YuYing is a 3rd year EngSci student who doesn't know a lot about structural design and hopes to learn more about it!😁 She enjoys coding, making websites and bubble tea 😋" />
+                  discipline="Computer Science, 2nd year" 
+                  linkedin="https://www.linkedin.com/in/tingyu-liang/"
+                  blurb="Tingyu was initially only looking for the web developer position but turned out to be attracted by the goal of the Seismic Design Team and the concept of structural design. He would like to connect with people from different fields of study and learn from them. For leisure, he watches animes and plays the piano." />
                 
                 <Profile 
                   image="leads/adela.jpg" 
@@ -207,18 +207,11 @@ export default class About extends Component {
               <h2 className="big-font text-dark mb-5"> Finance </h2>
               <div className="row">
                                                 
-                <Profile 
-                  image="leads/aakash.jpg" 
-                  memberName="Aakash Budhera" 
-                  role="Finance Lead"
-                  linkedin="https://www.linkedin.com/in/aakash-budhera/"
-                  discipline="Engineering Science (Math, Stats and Finance Option), 3rd year"
-                  blurb="Aakash  is excited to support the team with new fundraising strategies. He joined Seismic because of his interest in CIV102 (don't tell the other Engscis), and to work with sponsors and donors." />
-                
+              
                 <Profile 
                   image="leads/irteza.jpg" 
                   memberName="Irteza Ahmed" 
-                  role="Sponsorship Lead" 
+                  role="Finance and Sponsorship Lead" 
                   discipline="Civil Engineering, 3rd year"
                   linkedin="https://www.linkedin.com/in/i-nahiyan-ahmed/"
                   blurb="Irteza joined the seismic design team because he is fascinated by the design of resilient structures. He hopes to make the team successful through funding initiatives and sponsorships. In his free time, Irteza likes to produce music and code." />
