@@ -64,7 +64,7 @@ export default class About extends Component {
                     image="leads/maher.jpg" 
                     memberName="Maher Absar" 
                     role=""
-                    discipline="Civil Engineering, 4th year"
+                    discipline="Civil Engineering, 3rd year + PEY"
                     linkedin="https://www.linkedin.com/in/maherabsar/"
                     blurb="Maher joined the Seismic Design Team because of the experiential learning opportunities the tower design process provides. After completing three years of undergraduate civil engineering, he has developed a strong interest in structural engineering. He is excited to be back for his second year on the team and looks forward to tackling new challenges." />
 
