@@ -179,7 +179,7 @@ export default class About extends Component {
                   blurb="Tingyu was initially only looking for the web developer position but turned out to be attracted by the goal of the Seismic Design Team and the concept of structural design. He would like to connect with people from different fields of study and learn from them. For leisure, he watches animes and plays the piano." />
                 
                 <Profile 
-                  image="leads/adela.jpg" 
+                  image="leads/adela.png" 
                   memberName="Adela Hua" 
                   role="Architecture Lead" 
                   discipline="Architecture, 2nd year"

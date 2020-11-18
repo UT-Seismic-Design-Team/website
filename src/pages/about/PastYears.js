@@ -124,6 +124,34 @@ export default class PastYears extends Component {
                             score: '$57,584',
                             rank: '7th out of 34'
                         }
+                    ],
+                table2020:
+                    [
+                        {
+                            name: "Communications Score",
+                            score: '85.2%',
+                            rank: '12th out of 46'
+                        },
+                        {
+                            name: "Architecture Score",
+                            score: '78%',
+                            rank: '16th out of 46'
+                        },
+                        {
+                            name: "Analysis Prediction (% Error)",
+                            score: '32%',
+                            rank: '3rd out of 46'
+                        },
+                        {
+                            name: "Annual Seismic Cost",
+                            score: '$78,414',
+                            rank: '4th out of 46'
+                        },
+                        {
+                            name: "Final Annual Building Income",
+                            score: '$372,744',
+                            rank: '6th out of 46'
+                        }
                     ]
                 }
         };
@@ -142,6 +170,12 @@ export default class PastYears extends Component {
                     <Description align="left" title="2020" description="
                         We’re very excited to compete in San Diego this March and look forward to seeing how other 
                         teams have tackled the torsional irregularities this year!"/>
+
+                    <div className="row m-4 mb-5">
+                        <div className="col-lg www-des">
+                            <PerformanceTable data={this.state.tables.table2020}/>
+                        </div>
+                    </div>
 
                     <Description align="left" title="2019" description="
                         The most recent competition in Vancouver brought us surprises and new successes. Being the first team to
@@ -165,8 +199,6 @@ export default class PastYears extends Component {
                             <PerformanceTable data={this.state.tables.table2019}/>
                         </div>
                     </div>
-
-                    <hr/>
 
                     <Description align="left" title="2018" description="
                     This year provided significant challenges to the team as it was comprised solely of newer members in only 

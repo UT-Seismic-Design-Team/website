@@ -18,10 +18,6 @@ export default class Sponsors2020 extends Component {
                     sponsor="RJC" 
                     des="Read Jones Christoffersen Ltd. (RJC) is one of the largest engineering firms in Canada specializing in structural engineering, structural restoration, building science and parking planning services. We are a large but specialized firm, with a national staff of over 450 people in offices across Canada. We've worked on many UofT projects, including the Faculty of Law expansion, the UTSC Environmental Science and Chemistry Building and the UTM North Building Reconstruction."
                     link="http://rjc.ca/"/>
-        <Sponsor    image="sframe.jpg" 
-                    sponsor="S-Frame" 
-                    des="Since its founding in 1981, S-FRAME Software is a leading innovator in the structural engineering software field, beginning with its first 2-D P-FRAME analysis program up to today: An integrated 9-product structural analysis and design product suite for steel, concrete, and timber structures." 
-                    link="http://s-frame.com/"/>
         <Sponsor    image="stantec.png" 
                     sponsor="Stantec" 
                     des="Stantec is a modern engineering firm that focuses on designing for communities across the globe. They believe that communities provide a sense of place and belonging."
@@ -43,6 +39,10 @@ export default class Sponsors2020 extends Component {
                     sponsor="Associated Engineering" 
                     des="Associated Engineering is a firm committed to building communities that are vibrant, healthy, and efficient, support economic growth, and improve the environment. They are a uniquely Canadian, employee-owned company that brings global perspectives to their clients from their international experience and technical involvement." 
                     link="https://www.ae.ca/"/>
+        <Sponsor    image="sframe.jpg" 
+                    sponsor="S-Frame" 
+                    des="Since its founding in 1981, S-FRAME Software is a leading innovator in the structural engineering software field, beginning with its first 2-D P-FRAME analysis program up to today: An integrated 9-product structural analysis and design product suite for steel, concrete, and timber structures." 
+                    link="http://s-frame.com/"/>
         <p className="text-center">
           Interested in our team? Learn more <Link to="/contact"> here </Link>
         </p>
