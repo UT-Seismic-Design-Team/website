@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { FaInstagramSquare, FaLinkedin, FaGithubSquare } from 'react-icons/fa';
+import { FaInstagramSquare, FaLinkedin, FaGithubSquare, FaRegIdCard } from 'react-icons/fa';
 
 export default class Profile extends Component {
   constructor(props) {
@@ -15,27 +15,30 @@ export default class Profile extends Component {
   render() {
     let linkedin = (this.props.linkedin != null) ?
         (<a href={this.props.linkedin}>
-          <FaLinkedin style={{fontSize: '27px', color:'#0077B5'}}/>
+          <FaLinkedin style={{fontSize: '24px', color:'#0077B5'}}/>
         </a>) : (<span/>);
 
     let github = (this.props.github != null) ?
         (<a href={this.props.github}>
-          <FaGithubSquare style={{fontSize: '27px', color:'#000000'}}/>
+          <FaGithubSquare style={{fontSize: '24px', color:'#000000'}}/>
         </a>) : (<span/>);
 
     let instagram = (this.props.instagram != null) ?
         (<a href={this.props.instagram}>
-          <FaInstagramSquare style={{fontSize: '27px', color:'#E4405F'}}/>
+          <FaInstagramSquare style={{fontSize: '24px', color:'#E4405F'}}/>
         </a>) : (<span/>);
+
+    let portfolio = (this.props.portfolio != null) ?
+    (<a href={this.props.portfolio}>
+      <FaRegIdCard style={{fontSize: '24px', color:'#000000'}}/> 
+    </a>) : (<span/>);
 
     return (this.state.role === "Team Co-Captain") ? (
     <div className="col-md-6 mb-5">
         <div className="card profile">
             <h5 className="card-header">
               <b>{this.state.name}</b>
-              <div style={{display: "flex", alignItems: "center"}}>
-                {linkedin}{github}{instagram}
-              </div>
+                <span style={{display: "inline-flex", justifyContent: "space-evenly"}}>{linkedin}{github}{instagram}{portfolio}</span>
             </h5>
             <img className="card-image-top" src={require('../images/Team/' + this.state.image)} alt={this.state.name}/>
             <div className="card-body">
@@ -54,10 +57,8 @@ export default class Profile extends Component {
             <div className="col-md-8">
               <div className="card-body">
                 <h5 className="card-title">
-                  <b>{this.state.name}</b> 
-                  <div style={{display: "flex", alignItems: "center"}}>
-                    {linkedin}{github}{instagram}
-                  </div>
+                  <b>{this.state.name}</b>
+                  <span style={{display: "inline-flex", justifyContent: "space-evenly"}}>{linkedin}{github}{instagram}{portfolio}</span>
                 </h5>
                 <h5 className="card-title"><u>{this.state.role}</u></h5>
                 <h5 className="card-subtitle">{this.props.discipline}</h5>

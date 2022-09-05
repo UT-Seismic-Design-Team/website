@@ -50,7 +50,7 @@ export default class About extends Component {
                   discipline="Civil Engineering, 4th year + PEY"
                   linkedin="https://www.linkedin.com/in/siu-kai-cheung/"
                   github="https://github.com/kaison428"
-                  // Portfolio kaisoncheung.me
+                  portfolio="kaisoncheung.me"
                   blurb="Kaison joined the team in his first year, and he has taken on multiple roles since then, including Design and Analysis, Construction, and Webmaster. He enjoys working with people from different disciplines and building something impressive together. He is excited to see what the team can accomplish this year and hopes everyone will benefit from the team experience." />
                 
                 <Profile 
@@ -244,7 +244,7 @@ export default class About extends Component {
                   role="Architecture Manager"
                   discipline="Architecture Studies, 4th year" 
                   linkedin="https://www.linkedin.com/in/abubukker-chaudhary-b111591b7/"
-                  // Portfolio https://makurophage.wixsite.com/portfolio
+                  portfolio="https://makurophage.wixsite.com/portfolio"
                   blurb="Adela is a fourth-year Architectural Studies Design Specialist student with a particular interest in visualization and graphic representation. This will be her third year working with the team, and she is currently most excited about the expanded architecture roles and architecture mini-projects as well as new construction methods to be tested before the competition. She designs and draws characters in her free time." />
                 
                 <Profile 
@@ -253,7 +253,7 @@ export default class About extends Component {
                   role="Architecture Design Specialist" 
                   discipline="Architecture Studies, 3rd year"
                   linkedin="https://www.linkedin.com/in/adrian-y-549b7818a"
-                  // instagram www.instagram.com/visuals.trance
+                  portfolio="https://www.instagram.com/visuals.trance"
                   instagram="https://www.instagram.com/artofadrn"
                   blurb="Adrian joined the Seismic Design Team because of the learning opportunities a collaboration between engineers and architects provides. With a background in architectural design, photography, and 3D visualization, he hopes to assist the team in the design process and help produce compelling visuals. Adrian also enjoys playing ice hockey and badminton in his free time." />
                  
