@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { FaInstagramSquare, FaLinkedin, FaGithubSquare } from 'react-icons/fa';
 
 export default class Profile extends Component {
   constructor(props) {
@@ -14,17 +15,17 @@ export default class Profile extends Component {
   render() {
     let linkedin = (this.props.linkedin != null) ?
         (<a href={this.props.linkedin}>
-          <i className="fa fa-linkedin-square fa-md ml-3" style={{fontSize: '27px', color:'#0077B5'}}/>
+          <FaLinkedin style={{fontSize: '27px', color:'#0077B5'}}/>
         </a>) : (<span/>);
 
     let github = (this.props.github != null) ?
         (<a href={this.props.github}>
-          <i className="fa fa-github-square fa-md ml-3" style={{fontSize: '27px', color:'#000000'}}/>
+          <FaGithubSquare style={{fontSize: '27px', color:'#000000'}}/>
         </a>) : (<span/>);
 
     let instagram = (this.props.instagram != null) ?
         (<a href={this.props.instagram}>
-          <i className="fa fa-instagram-square fa-md ml-3" style={{fontSize: '27px', color:'#123450'}}/>
+          <FaInstagramSquare style={{fontSize: '27px', color:'#E4405F'}}/>
         </a>) : (<span/>);
 
     return (this.state.role === "Team Co-Captain") ? (
@@ -32,7 +33,9 @@ export default class Profile extends Component {
         <div className="card profile">
             <h5 className="card-header">
               <b>{this.state.name}</b>
-              {linkedin}{github}{instagram}
+              <div style={{display: "flex", alignItems: "center"}}>
+                {linkedin}{github}{instagram}
+              </div>
             </h5>
             <img className="card-image-top" src={require('../images/Team/' + this.state.image)} alt={this.state.name}/>
             <div className="card-body">
@@ -52,7 +55,9 @@ export default class Profile extends Component {
               <div className="card-body">
                 <h5 className="card-title">
                   <b>{this.state.name}</b> 
-                  {linkedin}{github}{instagram}
+                  <div style={{display: "flex", alignItems: "center"}}>
+                    {linkedin}{github}{instagram}
+                  </div>
                 </h5>
                 <h5 className="card-title"><u>{this.state.role}</u></h5>
                 <h5 className="card-subtitle">{this.props.discipline}</h5>

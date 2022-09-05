@@ -163,7 +163,7 @@ export default class About extends Component {
               <h2 className="big-font text-dark mb-5"> Construction Leads </h2>
               <div className="row">
                 <Profile 
-                  image="leads-2022-2023/rusafa.JPG" 
+                  image="leads-2022-2023/rusafa.jpg" 
                   memberName="Rusafa Rahman"
                   role="Construction - Project Management Specialist" 
                   discipline="Civil Engineering, 3rd year"
@@ -254,7 +254,7 @@ export default class About extends Component {
                   discipline="Architecture Studies, 3rd year"
                   linkedin="https://www.linkedin.com/in/adrian-y-549b7818a"
                   // instagram www.instagram.com/visuals.trance
-                  instagram="www.instagram.com/artofadrn"
+                  instagram="https://www.instagram.com/artofadrn"
                   blurb="Adrian joined the Seismic Design Team because of the learning opportunities a collaboration between engineers and architects provides. With a background in architectural design, photography, and 3D visualization, he hopes to assist the team in the design process and help produce compelling visuals. Adrian also enjoys playing ice hockey and badminton in his free time." />
                  
                  <Profile 
