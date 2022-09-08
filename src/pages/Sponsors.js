@@ -9,13 +9,14 @@ import Sponsors2018 from './sponsors/Sponsors2018';
 import Sponsors2019 from './sponsors/Sponsors2019';
 import Sponsors2020 from './sponsors/Sponsors2020';
 import Sponsors2021 from './sponsors/Sponsors2021';
+import Sponsors2022 from './sponsors/Sponsors2022';
 import $ from 'jquery';
 
 export default class Sponsors extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      sponsorCollection: <Sponsors2021/>
+      sponsorCollection: <Sponsors2022/>
     };
     this.onClick = this.onClick.bind(this);
   }
@@ -24,7 +25,11 @@ export default class Sponsors extends Component {
   
   onClick(e){
     const year = e.target.id
-    if(year === "2021"){
+    if(year === "2022"){
+      this.setState({
+        sponsorCollection: <Sponsors2022/>
+      })
+    }else if(year === "2021"){
       this.setState({
         sponsorCollection: <Sponsors2021/>
       })
@@ -63,7 +68,10 @@ export default class Sponsors extends Component {
               <div className="card-header">
                 <ul className="nav nav-tabs card-header-tabs">
                   <li className="nav-item">
-                    <button id="2021" className="nav-link active sponsor-tab" onClick={this.onClick}>2021</button>
+                    <button id="2022" className="nav-link active sponsor-tab" onClick={this.onClick}>2022</button>
+                  </li>
+                  <li className="nav-item">
+                    <button id="2021" className="nav-link non-active sponsor-tab" onClick={this.onClick}>2021</button>
                   </li>
                   <li className="nav-item">
                     <button id="2020" className="nav-link non-active sponsor-tab" onClick={this.onClick}>2020</button>
