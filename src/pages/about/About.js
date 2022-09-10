@@ -72,15 +72,7 @@ export default class About extends Component {
                   role="Executive Director" 
                   discipline="Civil Engineering, 4th year + PEY"
                   linkedin="https://www.linkedin.com/in/michael-metallo-4a4323185/"
-                  blurb="Michael joined UTSD in order to gain a better understanding of structural engineering and learn more about optimizing construction. He thinks that UTSD provides a great opportunity for anyone to learn about both building design and construction in a fun team environment." />
-
-                <Profile 
-                  image="leads-2022-2023/dana.jpg" 
-                  memberName="Dana Aladallal" 
-                  role="Social Manager" 
-                  discipline="Civil Engineering, 3rd year + PEY"
-                  linkedin="https://www.linkedin.com/in/dana-aladallal-59406b225"
-                  blurb="Dana has always been fascinated by the science behind earthquake engineering and has always wanted to explore the technology and design around it. As a social manager, she aims to connect and motivate the team in order to achieve outstanding results. A personal fun fact would be her love for the colour green!" />                  
+                  blurb="Michael joined UTSD in order to gain a better understanding of structural engineering and learn more about optimizing construction. He thinks that UTSD provides a great opportunity for anyone to learn about both building design and construction in a fun team environment." />                  
               </div>
             </div>
 
@@ -168,7 +160,7 @@ export default class About extends Component {
                   role="Construction - Project Management Specialist" 
                   discipline="Civil Engineering, 3rd year"
                   linkedin="https://www.linkedin.com/in/rusafa-rahman-6161b2225/"
-                  blurb="Passionate for project management and finds structural analysis challenging, therefore UTSD is the perfect opportunity to gain experience in these core civil engineering fields. Intends to contribute to the overall organization and management of construction. Excited to meet new faces and form connections and LIVES for Italian food." />
+                  blurb="Rusafa is passionate for project management and wishes to further explore structural analysis. UTSD is the perfect opportunity for her to gain experience in these core civil engineering field. She is determined to contribute to the overall organization of construction and is super excited to work with new faces! Also, she loves Italian food." />
 
                 <Profile 
                   image="leads-2022-2023/sacha.jpg" 
@@ -232,6 +224,14 @@ export default class About extends Component {
                   discipline="Engineering Science (Infrastructure Option), 3rd year + PEY"
                   linkedin="https://www.linkedin.com/in/meg-sarah-melendres-2578541b1"
                   blurb="Meg was interested in joining as the concept of building a tower using woods appealed to her. It was similar to when she made an Eiffel Tower using matchsticks. Through her position as a Media and Graphic Designer, she would want to promote the amazing work the team is doing to encourage more people to join the team. Aside from her role, she also expects to learn the technicalities of designing buildings and pick up some technical skills if an opportunity comes. Meg is currently in her PEY in Alberta and has been hiking. Every time she gets home, she learns she always rips her pants on hikes.  " />
+
+                <Profile 
+                  image="leads-2022-2023/dana.jpg" 
+                  memberName="Dana Aladallal" 
+                  role="Social Manager" 
+                  discipline="Civil Engineering, 3rd year + PEY"
+                  linkedin="https://www.linkedin.com/in/dana-aladallal-59406b225"
+                  blurb="Dana has always been fascinated by the science behind earthquake engineering and has always wanted to explore the technology and design around it. As a social manager, she aims to connect and motivate the team in order to achieve outstanding results. A personal fun fact would be her love for the colour green!" />
               </div>
             </div>
 
