@@ -87,6 +87,9 @@ export default class AppNavbar extends Component {
             <NavLink tag={Link} to="/sponsors">Sponsors</NavLink>
           </NavItem>
           <NavItem>
+            <NavLink tag={Link} to="/blogs">Blogs</NavLink>
+          </NavItem>
+          <NavItem>
             {/* <NavLink><AnchorLink href="#contact" style={{textDecoration:'none'}}>Contact</AnchorLink></NavLink> */}
             <NavLink tag={Link} to="/contact">Contact</NavLink>
           </NavItem>
