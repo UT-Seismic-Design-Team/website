@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
 import Description from '../../../components/Description';
 import PerformanceTable from '../../../components/PerformanceTable';
+import "./pastYears.css";
+
+const SPECKLE_MODEL_STREAM =
+  "https://speckle.xyz/embed?stream=499884e71d&commit=d5156dae60";
 
 export default class Sponsors2020 extends Component {
   constructor(props) {
@@ -42,18 +46,27 @@ export default class Sponsors2020 extends Component {
   render() {
     return (
       <div>
-        <iframe src="https://speckle.xyz/embed?stream=499884e71d&commit=d5156dae60" width="600" height="400" frameborder="0"></iframe>
-        <Description align="left" title="2020" description="
+        <Description
+          align="left"
+          title="2020"
+          description="
                       We’re very excited to compete in San Diego this March and look forward to seeing how other 
-                      teams have tackled the torsional irregularities this year!"/>
-
-                  <div className="row m-4 mb-5">
-                      <div className="col-lg www-des">
-                          <PerformanceTable data={this.state.tables.table2020}/>
-                      </div>
-                  </div>
+                      teams have tackled the torsional irregularities this year!"
+        />
+        <div className="viewer-center">
+          <iframe
+            src={SPECKLE_MODEL_STREAM}
+            width="900"
+            height="600"
+            frameborder="0"
+          ></iframe>
+        </div>
+        <div className="row m-4 mb-5">
+          <div className="col-lg www-des">
+            <PerformanceTable data={this.state.tables.table2020} />
+          </div>
+        </div>
       </div>
-      
     );
   }
 }
