@@ -1,15 +1,31 @@
 
-import React,{ useState } from 'react';
+import React,{ useState, useEffect } from 'react';
 import AppNavbar from "../../components/Navbar";
 import BlogList from '../../components/BlogList';
-import { blogList } from '../../components/data';
 import EmptyList from '../../components/EmptyList.js';
 import SearchBar from '../../components/SearchBar';
 
+import db from '../../firebase.js';
 
 const Blogs = () => {
-    const [blogs, setBlogs] = useState(blogList);
+    const [blogs, setBlogs] = useState([]);
+    const [blogList, setBlogList] = useState([])
     const [searchKey, setSearchKey] = useState('');
+
+    const getBlogs = async () => {
+      const response = db.collection("blogs");
+      const data = await response.get();
+      const items = []
+      data.docs.forEach((item) => {
+        items.push(item.data());
+      });
+      setBlogs(items[0].blogs)
+      setBlogList(items[0].blogs);
+    };
+
+    useEffect(() => {
+      getBlogs();
+    }, []);
 
     // Search submit
     const handleSearchBar = (e) => {
