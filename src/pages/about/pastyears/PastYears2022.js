@@ -7,10 +7,6 @@ const SPECKLE_MODEL_STREAM =
   "https://speckle.xyz/embed?stream=499884e71d&commit=d5156dae60";
 
 export default class Sponsors2022 extends Component {
-    constructor(props) {
-        super(props);
-    }
-
     render() {
     return (
       <div>
@@ -26,6 +22,7 @@ export default class Sponsors2022 extends Component {
             width="900"
             height="600"
             frameborder="0"
+            title="Tower 3D Model - 2022"
           ></iframe>
         </div>
 

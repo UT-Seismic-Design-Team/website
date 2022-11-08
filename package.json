@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@types/react": "^18.0.25",
     "bootstrap": "^4.4.1",
     "fs": "0.0.1-security",
     "glob": "^7.1.6",

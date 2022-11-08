@@ -59,6 +59,7 @@ export default class Sponsors2020 extends Component {
             width="900"
             height="600"
             frameborder="0"
+            title="Tower 3D Model - 2020"
           ></iframe>
         </div>
         <div className="row m-4 mb-5">

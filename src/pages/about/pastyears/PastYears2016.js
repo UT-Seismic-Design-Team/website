@@ -59,6 +59,7 @@ export default class Sponsors2016 extends Component {
             width="900"
             height="600"
             frameborder="0"
+            title="Tower 3D Model - 2016"
           ></iframe>
         </div>
 
