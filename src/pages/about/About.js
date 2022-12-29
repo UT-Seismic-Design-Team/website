@@ -222,10 +222,9 @@ export default class About extends Component {
                   image="leads-2022-2023/siddhi.jpg" 
                   memberName="Siddhi Bansal" 
                   role="Construction - BIM & Manufacture Specialist" 
-                  // discipline="Civil Engineering, 3rd year + PEY"
-                  // linkedin="https://www.linkedin.com/in/meixi-zhou-1637401b7"
-                  // blurb="Meixi (Michelle) is currently on PEY as Structural Designer Intern. She finds that UTSD provides her a great opportunity to learn both technical and soft skills and connect with experienced Alumni that will be helpful to my future career. She is excited to be a part of the team and solve challenges we might face in the future." 
-                />
+                  discipline="Industrial Engineering, 2nd year + PEY"
+                  linkedin="http://linkedin.com/in/siddhi-bansal358"
+                  blurb="Siddhi joined the Seismic Team to grow her passion for manufacturing and designing. She is excited to explore different techniques used in construction of the tower and wants to solve the challenges that come up with it. Siddhi likes to collaborate with people and work on different projects."/>
                 
               </div>
             </div>
@@ -262,28 +261,25 @@ export default class About extends Component {
                   image="leads-2022-2023/hayden.jpeg" 
                   memberName="Hayden Groer" 
                   role="Digital Solution Specialist" 
-                  // discipline="Computer Science, 2nd year"
-                  // github="https://github.com/"
-                  // blurb="Ajinkya joined the Seismic Design Team to learn the basics of structural design and the computer science practices used in seismic engineering. He looks forward to collaborating with people from various disciplines in a fun and energetic environment. In his free time, Ajinkya enjoys playing Cricket, Badminton, and watching anime." 
-                  />
+                  discipline="Industrial Engineering, 2nd year + PEY"
+                  linkedin="https://www.linkedin.com/in/hayden-groer-48a7a5242/"
+                  blurb="Hayden joined the Seismic Design Team to learn new coding technical skills and to learn how to work on software projects as part of a team. He is looking forward to maximizing structural efficiency and enhancing his project management and 3D modelling skills. Hayden is excited about connecting with team members from various disciplines and faculties. In his free time, he likes to play basketball and engage in NBA analytics." />
 
                 <Profile 
                   image="leads-2022-2023/ryan.jpeg" 
                   memberName="Ryan Philip"
                   role="Digital Solution Specialist" 
-                  // discipline="Computer Science, 2nd year"
-                  // github="https://github.com/"
-                  // blurb="Ajinkya joined the Seismic Design Team to learn the basics of structural design and the computer science practices used in seismic engineering. He looks forward to collaborating with people from various disciplines in a fun and energetic environment. In his free time, Ajinkya enjoys playing Cricket, Badminton, and watching anime." 
-                  />
+                  discipline="Computer Engineering, 2nd year + PEY"
+                  linkedin="https://www.linkedin.com/in/ryan-philip-917a05247"
+                  blurb="Ryan is a 2nd Year ECE student and joined UTSD in order to gain valuable experience working with a team to complete a large project. He is also interested in learning various optimization algorithms as well work with people from different disciplines. His goal is to learn a lot about structural engineering, which is quite different from ECE, and to make a meaningful contribution to the team. " />
 
                 <Profile 
                   image="leads-2022-2023/catherine.jpeg" 
                   memberName="Catherine Li" 
                   role="Digital Solution Specialist" 
-                  // discipline="Computer Science, 2nd year"
-                  // github="https://github.com/"
-                  // blurb="Ajinkya joined the Seismic Design Team to learn the basics of structural design and the computer science practices used in seismic engineering. He looks forward to collaborating with people from various disciplines in a fun and energetic environment. In his free time, Ajinkya enjoys playing Cricket, Badminton, and watching anime." 
-                  />
+                  discipline="Computer Engineering, 2nd year + PEY"
+                  linkedin="https://www.linkedin.com/in/catherine-li-/"
+                  blurb="Catherine was in Track One engineering in first year, and while she eventually chose computer engineering, civil engineering was a close second choice for her because of her love for structures and hands-on projects. At UTSD, she is eager to combine her love for programming with her interests in structures. In her free time, Catherine loves to build jigsaw puzzles, run, or hike with her dog." />
               </div>
             </div>
 
@@ -302,10 +298,9 @@ export default class About extends Component {
                   image="leads-2022-2023/sodaba.jpeg" 
                   memberName="Sodaba Nooristani" 
                   role="Media and Graphic Designer" 
-                  // discipline="Engineering Science (Infrastructure Option), 3rd year + PEY"
-                  // linkedin="https://www.linkedin.com/in/meg-sarah-melendres-2578541b1"
-                  // blurb="Meg was interested in joining as the concept of building a tower using woods appealed to her. It was similar to when she made an Eiffel Tower using matchsticks. Through her position as a Media and Graphic Designer, she would want to promote the amazing work the team is doing to encourage more people to join the team. Aside from her role, she also expects to learn the technicalities of designing buildings and pick up some technical skills if an opportunity comes. Meg is currently in her PEY in Alberta and has been hiking. Every time she gets home, she learns she always rips her pants on hikes.  " 
-                  />
+                  discipline="Civil Engineering, 2nd year + PEY"
+                  linkedin="https://www.linkedin.com/in/sodaba-nooristani-6453611b5/"
+                  blurb="Sodaba joined UTSD in 2022. She is interested in the basics of structural engineering, and design. She wishes to use her position to promote the team's projects and inspire future team members to join. Sodaba hopes to learn the technicalities of seismic design, and to be apart of team effort to solve future problems. In her free time, she enjoys reading, listening to music and playing the violin. "/>
 
                 <Profile 
                   image="leads-2022-2023/dana.jpg" 
