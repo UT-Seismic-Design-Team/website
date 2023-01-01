@@ -4,7 +4,7 @@ import PerformanceTable from '../../../components/PerformanceTable';
 import "./pastYears.css";
 
 const SPECKLE_MODEL_STREAM =
-  "https://speckle.xyz/embed?stream=499884e71d&commit=d5156dae60";
+  "https://speckle.xyz/embed?stream=499884e71d&commit=38bbf0b083&hidesidebar=true";
 
 export default class Sponsors2020 extends Component {
   constructor(props) {
@@ -56,6 +56,7 @@ export default class Sponsors2020 extends Component {
         <div className="viewer-center">
           <iframe
             src={SPECKLE_MODEL_STREAM}
+            title="2020"
             width="900"
             height="600"
             frameborder="0"

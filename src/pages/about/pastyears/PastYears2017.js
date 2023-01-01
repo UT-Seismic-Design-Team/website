@@ -53,14 +53,14 @@ export default class Sponsors2017 extends Component {
                     This year our team achieved a number of significant milestones in terms of construction and design based on our experience from the previous year.
                     Firstly, we were able to completely restructure our construction process by employing the use of a full height jig in order to maximize consistency throughout the structure."
         />
-        <div className="viewer-center">
+        {/* <div className="viewer-center">
           <iframe
             src={SPECKLE_MODEL_STREAM}
             width="900"
             height="600"
             frameborder="0"
           ></iframe>
-        </div>
+        </div> */}
         <div className="row m-4">
           <div className="col-lg www-des">
             <p>

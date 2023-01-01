@@ -53,14 +53,14 @@ export default class Sponsors2016 extends Component {
             In our inaugural year competing in the EERI Seismic Design Competition, we learned a great deal about constructing and designing a balsa wood structure to withstand ground motions of varying intensities.
             Our design this year consisted of an integrated structural and architectural systems in order to blend into the architectural scene of San Francisco."
         />
-        <div className="viewer-center">
+        {/* <div className="viewer-center">
           <iframe
             src={SPECKLE_MODEL_STREAM}
             width="900"
             height="600"
             frameborder="0"
           ></iframe>
-        </div>
+        </div> */}
 
         <div className="row m-4">
           <div className="col-lg www-des">

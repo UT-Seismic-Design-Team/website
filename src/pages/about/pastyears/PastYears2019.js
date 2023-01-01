@@ -55,14 +55,14 @@ export default class Sponsors2019 extends Component {
                         of our team we managed to earn 1st place in communication which was a great milestone.
                     "
         />
-        <div className="viewer-center">
+        {/* <div className="viewer-center">
           <iframe
             src={SPECKLE_MODEL_STREAM}
             width="900"
             height="600"
             frameborder="0"
           ></iframe>
-        </div>
+        </div> */}
         <div className="row m-4 mb-5">
           <div className="col-lg www-des">
             <PerformanceTable data={this.state.tables.table2019} />
