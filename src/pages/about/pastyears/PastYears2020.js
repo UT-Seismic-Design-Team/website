@@ -56,7 +56,6 @@ export default class Sponsors2020 extends Component {
         <div className="viewer-center">
           <iframe
             src={SPECKLE_MODEL_STREAM}
-            title="2020"
             width="900"
             height="600"
             frameborder="0"
