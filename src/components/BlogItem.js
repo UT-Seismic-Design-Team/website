@@ -23,7 +23,7 @@ const BlogItem = ({
 
         {/* Title and short description */}
         <h3>{title}</h3>
-        <p className='blogItem-desc'>{description}</p>
+        <p className='blogItem-desc'>{description[0]}</p>
 
         {/* Card Footer */}
         <footer>

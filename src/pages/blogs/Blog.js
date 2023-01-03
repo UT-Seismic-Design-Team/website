@@ -38,7 +38,6 @@ const Blog = () => {
       {/* Blog Data & Empty View */}
       {blog ? (
         <div className="blog-wrap">
-
           {/* Blog Header */}
           <header>
             <p className="blog-date">Published {blog.createdAt}</p>
@@ -56,7 +55,11 @@ const Blog = () => {
           <img src={require("../../images/Blogs/" + blog.cover)} alt="cover" />
 
           {/* Blog Body */}
-          <p className="blog-desc">{blog.description}</p>
+          <div className="blog-body">
+            {blog.description.map((block) => (
+              <p className="blog-desc">{block}</p>
+            ))}
+          </div>
         </div>
       ) : (
         <EmptyList />
