@@ -1,26 +1,24 @@
 
 import React,{ useState, useEffect } from 'react';
 import AppNavbar from "../../components/Navbar";
+import Footer from '../../components/Footer';
 import BlogList from '../../components/BlogList';
 import EmptyList from '../../components/EmptyList.js';
 import SearchBar from '../../components/SearchBar';
-
 import db from '../../firebase.js';
 
 const Blogs = () => {
-    const [blogs, setBlogs] = useState([]);
-    const [blogList, setBlogList] = useState([])
+    const [blogs, setBlogs] = useState([]); // Current state of the blogs (i.e. blogs under a specific fileter)
+    const [blogList, setBlogList] = useState([]); // Initial state of the blogs
     const [searchKey, setSearchKey] = useState('');
 
+    // Fetches the blog data from firebase
     const getBlogs = async () => {
       const response = db.collection("blogs");
       const data = await response.get();
-      const items = []
-      data.docs.forEach((item) => {
-        items.push(item.data());
-      });
-      setBlogs(items[0].blogs)
-      setBlogList(items[0].blogs);
+      let blogData = data.docs[0].data().blogs;
+      setBlogs(blogData)
+      setBlogList(blogData);
     };
 
     useEffect(() => {
@@ -50,8 +48,9 @@ const Blogs = () => {
 
     return (
       <div>
-        {/* Page Header */}
         <AppNavbar />
+
+        {/* Page Header */}
         <header className="blog-header">
           <h2>Seismic Design Team</h2>
           <h1>
@@ -72,10 +71,10 @@ const Blogs = () => {
 
         {/* Blog List & Empty View */}
         {!blogs.length ? <EmptyList /> : <BlogList blogs={blogs} />}
+
+        <Footer />
       </div>
     );
 };
 
 export default Blogs;
-
-

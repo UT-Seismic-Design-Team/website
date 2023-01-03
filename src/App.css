@@ -361,6 +361,7 @@ html {
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 3rem;
   margin: 20px 5%;
+  margin-bottom: 100px;
 }
 
 @media (max-width: 768px) {
@@ -472,6 +473,7 @@ html {
 .blog-wrap {
   max-width: 700px;
   margin: 0 auto;
+  margin-bottom: 100px;
 }
 
 .blog-goBack {

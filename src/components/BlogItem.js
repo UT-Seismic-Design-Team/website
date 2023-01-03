@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-
 const BlogItem = ({
     blog: {
       description,
@@ -15,11 +14,18 @@ const BlogItem = ({
     },
   }) => {
     return (
-      <div className='blogItem-wrap' style={{}}>
+      <div className='blogItem-wrap'>
+        {/* Cover Image */}
         <img className='blogItem-cover' src={require('../images/Blogs/' + cover)} alt='cover' />
+
+        {/* Category */}
         <p className='chip'>{category}</p>
+
+        {/* Title and short description */}
         <h3>{title}</h3>
         <p className='blogItem-desc'>{description}</p>
+
+        {/* Card Footer */}
         <footer>
           <div className='blogItem-author'>
             <img src={require('../images/Blogs/' + authorAvatar)} alt='avatar' />
