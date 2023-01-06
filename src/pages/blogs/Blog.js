@@ -55,10 +55,27 @@ const Blog = () => {
           <img src={require("../../images/Blogs/" + blog.cover)} alt="cover" />
 
           {/* Blog Body */}
+
+          {/* TODO: Add more customizability like  
+          1. different sections - PROGRESS
+          2. each section would have a title and a list of paragraphs - DONE
+          3. make it so the list also has images accompaning the paragraphs - PROGRESS
+          4. Add a section for author with the links to his social - NOT STARTED
+
+          PROGRESS:
+          1. Added functionality of rendering sections which are basically a title followed by list of paragraphs
+          */}
           <div className="blog-body">
-            {blog.description.map((block) => (
-              <p className="blog-desc">{block}</p>
-            ))}
+            {blog.description.map((section) => {
+              return (
+                <div>
+                  <h1>{section.title}</h1>
+                  {section.description.map((block) => {
+                    return <p className="blog-desc">{block}</p>;
+                  })}
+                </div>
+              );
+            })}
           </div>
         </div>
       ) : (
