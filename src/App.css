@@ -307,7 +307,7 @@ html {
 
 .blog-header h1 {
   font-size: 3rem;
-  color: #0f52ba;
+  color: rgb(5, 27, 56);
   margin-bottom: 1rem;
 }
 
@@ -351,8 +351,8 @@ html {
   border: none;
   padding: 0.3rem 1rem;
   border-radius: 5px;
-  background-color: #0f52ba;
-  color: #fff;
+  background-color: rgb(5, 27, 56);
+  color:bisque;
 }
 
 /* Blog Page: Blog List Styling */
@@ -510,4 +510,8 @@ html {
 
 .blog-body {
   padding: 1rem;
+}
+
+.blog-desc{
+  white-space: pre-line;
 }
