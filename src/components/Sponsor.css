@@ -1,0 +1,73 @@
+.sponsorComponentWrapper{
+  width: 100%;
+}
+
+.partners{
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 3em;
+}
+
+.sponsorsList{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.sponsorImageButton{
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: none;
+  margin: 30px;
+}
+.sponsorImageButton:focus {
+  outline: 0 !important;
+}
+
+.goldSponsors{
+  background: linear-gradient(180deg,rgba(247,181,49,.375),rgba(247,181,49,0));
+}
+
+.goldSponsors h3{
+  color: #e58123;
+  margin-bottom: 1.125em;
+  filter: drop-shadow(0 4px 4px rgba(247,181,49,.5));
+}
+
+.goldSponsorImage{
+  object-fit: cover;
+  width: 350px;
+  height: 100%;
+}
+
+.silverSponsors{
+  background: linear-gradient(180deg,rgba(91,91,92,.25),rgba(91,91,92,0));
+}
+
+.silverSponsorImage{
+  object-fit: cover;
+  width: 130px;
+  height: 100%;
+}
+
+.silverSponsors h3 {
+  color: #5b5b5c;
+  filter: drop-shadow(0 4px 4px rgba(0,0,0,.25));
+  margin-bottom: 1.125em;
+}
+
+.bronzeSponsors{
+  background: linear-gradient(180deg,rgba(205,127,50,.375),rgba(247,181,49,0));
+}
+
+.bronxeSponsorImage{
+  object-fit: cover;
+  width: 80px;
+  height: 100%;
+}
