@@ -28,7 +28,7 @@ const data = {
 export default class Sponsors2022 extends Component {
   render() {
     return (
-      <div>
+      <div >
         <SponsorComponent data={data} />
         <p className="text-center">
           Interested in our team? Learn more <Link to="/contact"> here </Link>

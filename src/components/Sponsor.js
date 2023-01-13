@@ -53,49 +53,14 @@ const SponsorCard = ({sponsor, year, sponsorLevel}) => {
 export const SponsorComponent = ({ data }) => {
   return (
     <div className="w-100">
+      <span style={{"flex": "1 1 auto"}}></span>
       {data?.gold && (
-        <div className="w-100 partners goldSponsors">
+        <div className="partners goldSponsors">
           <div>
             <h3>Gold Sponsors</h3>
             <div className="sponsorsList">
               {data.gold.map((sponsor) => {
                 return (
-                  // <div>
-                  //   <button
-                  //     className="sponsorButton"
-                  //     data-toggle="modal"
-                  //     data-target={`#${data.year}${sponsor.name}`}
-                  //   >
-                  //     <img
-                  //       className="goldSponsorImage"
-                  //       src={require(`../images/Sponsors/${sponsor.logo}`)}
-                  //       alt={sponsor.name}
-                  //     />
-                  //   </button>
-                  //   <div
-                  //     className="modal fade"
-                  //     id={`#${data.year}${sponsor.name}`}
-                  //     role="dialog"
-                  //   >
-                  //     <div className="modal-dialog">
-                  //       <div className="modal-content">
-                  //         <div className="modal-header">
-                  //           <h4 className="modal-title">{sponsor.name}</h4>
-                  //           <button
-                  //             type="button"
-                  //             className="close"
-                  //             data-dismiss="modal"
-                  //           >
-                  //             &times;
-                  //           </button>
-                  //         </div>
-                  //         <div className="modal-body">
-                  //           <p>{sponsor.description}</p>
-                  //         </div>
-                  //       </div>
-                  //     </div>
-                  //   </div>
-                  // </div>
                   <SponsorCard
                     sponsor={sponsor}
                     year={data.year}
@@ -130,12 +95,12 @@ export const SponsorComponent = ({ data }) => {
           <div>
             <h3>Bronze Sponsors</h3>
             <div className="sponsorsList">
-              {data.silver.map((sponsor) => {
+              {data.bronze.map((sponsor) => {
                 return (
                   <SponsorCard
                     sponsor={sponsor}
                     year={data.year}
-                    sponsorLevel="silver"
+                    sponsorLevel="bronze"
                   />
                 );
               })}
@@ -146,9 +111,6 @@ export const SponsorComponent = ({ data }) => {
     </div>
   );
 }
-
-
-
 
 
 export default class Sponsor extends Component {

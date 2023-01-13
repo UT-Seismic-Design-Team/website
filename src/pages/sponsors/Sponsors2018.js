@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import Sponsor from '../../components/Sponsor';
 
+
+
+
 export default class Sponsors2018 extends Component {
 
   render() {

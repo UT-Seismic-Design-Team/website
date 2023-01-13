@@ -26,12 +26,15 @@
   outline: none;
   margin: 30px;
 }
+
 .sponsorImageButton:focus {
   outline: 0 !important;
 }
 
+/* GOLD */
 .goldSponsors{
   background: linear-gradient(180deg,rgba(247,181,49,.375),rgba(247,181,49,0));
+  width: 80vw;
 }
 
 .goldSponsors h3{
@@ -46,13 +49,15 @@
   height: 100%;
 }
 
+/* SILVER */
 .silverSponsors{
   background: linear-gradient(180deg,rgba(91,91,92,.25),rgba(91,91,92,0));
+  width: 80vw;
 }
 
 .silverSponsorImage{
   object-fit: cover;
-  width: 130px;
+  width: 200px;
   height: 100%;
 }
 
@@ -62,11 +67,13 @@
   margin-bottom: 1.125em;
 }
 
+/* BRONZE */
 .bronzeSponsors{
   background: linear-gradient(180deg,rgba(205,127,50,.375),rgba(247,181,49,0));
+  width: 80vw;
 }
 
-.bronxeSponsorImage{
+.bronzeSponsorImage{
   object-fit: cover;
   width: 80px;
   height: 100%;
