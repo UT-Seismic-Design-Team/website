@@ -56,7 +56,7 @@ export default class Sponsors2020 extends Component {
         <div className="viewer-center">
           <iframe
             src={SPECKLE_MODEL_STREAM}
-            width="900"
+            width="80%"
             height="600"
             frameborder="0"
             title="Tower 3D Model - 2020"
