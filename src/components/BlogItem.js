@@ -27,13 +27,16 @@ const BlogItem = ({
 
         {/* Title and short description */}
         <h3>{title}</h3>
-        <p className="blogItem-desc">{sections[0].description}</p>
+        <p
+          className="blogItem-desc"
+          dangerouslySetInnerHTML={{ __html: sections[0].description }}
+        />
 
         {/* Card Footer */}
         <footer>
           <div className="blogItem-author">
             <img
-              src={require("../images/Blogs/" + authorAvatar)}
+              src={require("../images/Team/leads-2022-2023/" + authorAvatar)}
               alt="avatar"
             />
             <div>
