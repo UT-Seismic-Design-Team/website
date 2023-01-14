@@ -5,6 +5,11 @@ import AppNavbar from "../../components/Navbar";
 import Footer from '../../components/Footer';
 import EmptyList from '../../components/EmptyList';
 import db from "../../firebase.js";
+import {
+  FaInstagramSquare,
+  FaLinkedin,
+  FaRegIdCard,
+} from "react-icons/fa";
 
 
 const Blog = () => {
@@ -35,6 +40,27 @@ const Blog = () => {
         <span> &#8592;</span> <span>Go Back</span>
       </Link>
 
+      {/* Social Links */}
+      <div class="sticky-container">
+        <ul class="sticky">
+          <li>
+            <a href="https://plus.google.com/codexworld" target="_blank">
+              <FaInstagramSquare style={{ fontSize: "30px", color: "#0077B5" }} />
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/company/codexworld" target="_blank">
+              <FaLinkedin style={{ fontSize: "30px", color: "#0077B5" }} />
+            </a>
+          </li>
+          <li>
+            <a href="http://www.youtube.com/codexworld" target="_blank">
+              <FaRegIdCard style={{ fontSize: "30px", color: "#0077B5" }} />
+            </a>
+          </li>
+        </ul>
+      </div>
+
       {/* Blog Data & Empty View */}
       {blog ? (
         <div className="blog-wrap">
@@ -60,21 +86,23 @@ const Blog = () => {
           1. different sections - DONE
           2. each section would have a title and a list of paragraphs - DONE
           3. make it so the list also has images accompaning the paragraphs - PROGRESS
-          4. Add a section for author with the links to his social - PROGRESS
-
-          PROGRESS:
-          1. Added functionality of rendering multiple sections which are basically a title followed by list of paragraphs
+          4. Add a section for author with the links to his social - DONE
           */}
           <div className="blog-body">
             {blog.sections.map((section, index) => {
-
-              {/* Individual Section */} 
+              {
+                /* Individual Section */
+              }
               return (
                 <div key={index}>
                   <h1>{section.title}</h1>
                   {section.description.map((block, index) => {
                     return (
-                      <p key={index} dangerouslySetInnerHTML={{ __html: block }} className="blog-desc"/>
+                      <p
+                        key={index}
+                        dangerouslySetInnerHTML={{ __html: block }}
+                        className="blog-desc"
+                      />
                     );
                   })}
                 </div>
