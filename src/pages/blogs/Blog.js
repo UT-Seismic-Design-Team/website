@@ -44,17 +44,17 @@ const Blog = () => {
       <div class="sticky-container">
         <ul class="sticky">
           <li>
-            <a href="https://plus.google.com/codexworld" target="_blank">
+            <a href="https://github.com/kaison428" target="_blank">
               <FaInstagramSquare style={{ fontSize: "30px", color: "#0077B5" }} />
             </a>
           </li>
           <li>
-            <a href="https://www.linkedin.com/company/codexworld" target="_blank">
+            <a href="https://www.linkedin.com/in/siu-kai-cheung/" target="_blank">
               <FaLinkedin style={{ fontSize: "30px", color: "#0077B5" }} />
             </a>
           </li>
           <li>
-            <a href="http://www.youtube.com/codexworld" target="_blank">
+            <a href="kaisoncheung.me" target="_blank">
               <FaRegIdCard style={{ fontSize: "30px", color: "#0077B5" }} />
             </a>
           </li>
@@ -101,7 +101,6 @@ const Blog = () => {
                       <p
                         key={index}
                         dangerouslySetInnerHTML={{ __html: block }}
-                        className="blog-desc"
                       />
                     );
                   })}
