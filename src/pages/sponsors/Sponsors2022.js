@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Sponsor from '../../components/Sponsor';
 import { SponsorComponent } from '../../components/Sponsor'
 import { Link } from 'react-router-dom';
 

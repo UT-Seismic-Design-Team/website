@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Sponsor, {SponsorComponent} from '../../components/Sponsor';
+import {SponsorComponent} from '../../components/Sponsor';
 import { Link } from 'react-router-dom';
 
 const data = {

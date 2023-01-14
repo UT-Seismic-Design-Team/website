@@ -1,20 +1,31 @@
-import React, { Component } from 'react';
+import React, { Component, useEffect, useRef } from 'react';
+import { Tooltip } from  'bootstrap';
 import "./Sponsor.css"
 
-const SponsorCard = ({sponsor, year, sponsorLevel}) => {
+const SponsorCard = ({ sponsor, year, sponsorLevel }) => {
+  const tooltipRef = useRef();
+
+  useEffect(() => {
+    var tooltip = new Tooltip(tooltipRef.current, {
+      title: sponsor.name,
+      placement: "bottom",
+      trigger: "hover",
+    });
+  });
   return (
     <div>
-      <button
-        className="sponsorImageButton"
-        data-toggle="modal"
-        data-target={`#myModal${sponsor.name.replace(/ /g, "")}`}
-      >
-        <img
-          className={`${sponsorLevel}SponsorImage`}
-          src={require(`../images/Sponsors/${sponsor.logo}`)}
-          alt={sponsor.name}
-        />
-      </button>
+        <button
+          className="sponsorImageButton"
+          data-toggle="modal"
+          data-target={`#myModal${sponsor.name.replace(/ /g, "")}`}
+        >
+          <img
+            ref={tooltipRef}
+            className={`${sponsorLevel}SponsorImage sponsorImage`}
+            src={require(`../images/Sponsors/${sponsor.logo}`)}
+            alt={sponsor.name}
+          />
+        </button>
       <div
         className="modal fade"
         id={`myModal${sponsor.name.replace(/ /g, "")}`}
@@ -53,15 +64,34 @@ const SponsorCard = ({sponsor, year, sponsorLevel}) => {
 export const SponsorComponent = ({ data }) => {
   return (
     <div className="w-100">
-      <span style={{"flex": "1 1 auto"}}></span>
-      {data?.gold && (
+      {data?.diamond && data.diamond.length && (
+        <div className="partners diamondSponsors">
+          <div>
+            <h3>Diamond Sponsors</h3>
+            <div className="sponsorsList">
+              {data.diamond.map((sponsor, i) => {
+                return (
+                  <SponsorCard
+                    key={i}
+                    sponsor={sponsor}
+                    year={data.year}
+                    sponsorLevel="diamond"
+                  />
+                );
+              })}
+            </div>
+          </div>
+        </div>
+      )}
+      {data?.gold && data.gold.length && (
         <div className="partners goldSponsors">
           <div>
             <h3>Gold Sponsors</h3>
             <div className="sponsorsList">
-              {data.gold.map((sponsor) => {
+              {data.gold.map((sponsor, i) => {
                 return (
                   <SponsorCard
+                    key={i}
                     sponsor={sponsor}
                     year={data.year}
                     sponsorLevel="gold"
@@ -72,14 +102,15 @@ export const SponsorComponent = ({ data }) => {
           </div>
         </div>
       )}
-      {data?.silver && (
+      {data?.silver && data.silver.length && (
         <div className="partners silverSponsors">
           <div>
             <h3>Silver Sponsors</h3>
             <div className="sponsorsList">
-              {data.silver.map((sponsor) => {
+              {data.silver.map((sponsor, i) => {
                 return (
                   <SponsorCard
+                    key={i}
                     sponsor={sponsor}
                     year={data.year}
                     sponsorLevel="silver"
@@ -90,17 +121,37 @@ export const SponsorComponent = ({ data }) => {
           </div>
         </div>
       )}
-      {data?.bronze && (
+      {data?.bronze && data.bronze.length && (
         <div className="partners bronzeSponsors">
           <div>
             <h3>Bronze Sponsors</h3>
             <div className="sponsorsList">
-              {data.bronze.map((sponsor) => {
+              {data.bronze.map((sponsor, i) => {
                 return (
                   <SponsorCard
+                    key={i}
                     sponsor={sponsor}
                     year={data.year}
                     sponsorLevel="bronze"
+                  />
+                );
+              })}
+            </div>
+          </div>
+        </div>
+      )}
+      {data?.partner && data.partner.length && (
+        <div className="partners partnerSponsors">
+          <div>
+            <h3>Corporate Partners</h3>
+            <div className="sponsorsList">
+              {data.partner.map((sponsor, i) => {
+                return (
+                  <SponsorCard
+                    key={i}
+                    sponsor={sponsor}
+                    year={data.year}
+                    sponsorLevel="partner"
                   />
                 );
               })}
