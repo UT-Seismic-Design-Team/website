@@ -67,12 +67,43 @@ export default class About extends Component {
               <h2 className="big-font text-dark mb-5"> Team Directors </h2>
               <div className="row">                   
                 <Profile 
-                  image="leads-2022-2023/michael metallo.png" 
+                  image="leads-2022-2023/michael metallo.jpeg" 
                   memberName="Michael Metallo" 
                   role="Executive Director" 
                   discipline="Civil Engineering, 4th year + PEY"
                   linkedin="https://www.linkedin.com/in/michael-metallo-4a4323185/"
                   blurb="Michael joined UTSD in order to gain a better understanding of structural engineering and learn more about optimizing construction. He thinks that UTSD provides a great opportunity for anyone to learn about both building design and construction in a fun team environment." />                  
+              </div>
+            </div>
+
+            <div className="row mb-5 mr-2 ml-2">
+              <h2 className="big-font text-dark mb-5"> Architecture </h2>
+              <div className="row">
+                <Profile 
+                  image="leads-2022-2023/adela.jpg" 
+                  memberName="Adela Hua" 
+                  role="Architecture Manager"
+                  discipline="Architecture Studies, 4th year" 
+                  linkedin="https://www.linkedin.com/in/abubukker-chaudhary-b111591b7/"
+                  portfolio="https://makurophage.wixsite.com/portfolio"
+                  blurb="Adela is a fourth-year Architectural Studies Design Specialist student with a particular interest in visualization and graphic representation. This will be her third year working with the team, and she is currently most excited about the expanded architecture roles and architecture mini-projects as well as new construction methods to be tested before the competition. She designs and draws characters in her free time." />
+                
+                <Profile 
+                  image="leads-2022-2023/adrian.jpg" 
+                  memberName="Adrian Yu"
+                  role="Architecture Design Specialist" 
+                  discipline="Architecture Studies, 3rd year"
+                  linkedin="https://www.linkedin.com/in/adrian-y-549b7818a"
+                  portfolio="https://www.instagram.com/visuals.trance"
+                  instagram="https://www.instagram.com/artofadrn"
+                  blurb="Adrian joined the Seismic Design Team because of the learning opportunities a collaboration between engineers and architects provides. With a background in architectural design, photography, and 3D visualization, he hopes to assist the team in the design process and help produce compelling visuals. Adrian also enjoys playing ice hockey and badminton in his free time." />
+                 
+                 <Profile 
+                  image="leads-2022-2023/rahat.jpeg" 
+                  memberName="Rahat Mirza"
+                  role="Architecture Design Specialist" 
+                  discipline="Architecture Studies, 2nd year"
+                  blurb="Rahat is a current second-year architecture student who joined the seismic team to enrich her knowledge of the integration between design and structure. She wishes to gain valuable experience and looks forward to learning from her peers. During her free time, she can be found either catching up on lost sleep or re-watching the office." />
               </div>
             </div>
 
@@ -186,11 +217,20 @@ export default class About extends Component {
                   discipline="Civil Engineering, 3rd year + PEY"
                   linkedin="https://www.linkedin.com/in/meixi-zhou-1637401b7"
                   blurb="Meixi (Michelle) is currently on PEY as Structural Designer Intern. She finds that UTSD provides her a great opportunity to learn both technical and soft skills and connect with experienced Alumni that will be helpful to my future career. She is excited to be a part of the team and solve challenges we might face in the future." />
+
+              <Profile 
+                  image="leads-2022-2023/siddhi.jpg" 
+                  memberName="Siddhi Bansal" 
+                  role="Construction - BIM & Manufacture Specialist" 
+                  discipline="Industrial Engineering, 2nd year + PEY"
+                  linkedin="http://linkedin.com/in/siddhi-bansal358"
+                  blurb="Siddhi joined the Seismic Team to grow her passion for manufacturing and designing. She is excited to explore different techniques used in construction of the tower and wants to solve the challenges that come up with it. Siddhi likes to collaborate with people and work on different projects."/>
+                
               </div>
             </div>
 
             <div className="row mb-5 mr-2 ml-2">
-              <h2 className="big-font text-dark mb-5"> Multimedia </h2>
+              <h2 className="big-font text-dark mb-5"> Digital Solution Specialists </h2>
               <div className="row">
                 <Profile 
                   image="leads-2022-2023/abubukker.jpeg" 
@@ -216,7 +256,36 @@ export default class About extends Component {
                   discipline="Computer Science, 2nd year"
                   github="https://github.com/Ajinkya-B"
                   blurb="Ajinkya joined the Seismic Design Team to learn the basics of structural design and the computer science practices used in seismic engineering. He looks forward to collaborating with people from various disciplines in a fun and energetic environment. In his free time, Ajinkya enjoys playing Cricket, Badminton, and watching anime." />
+                
+                <Profile 
+                  image="leads-2022-2023/hayden.jpeg" 
+                  memberName="Hayden Groer" 
+                  role="Digital Solution Specialist" 
+                  discipline="Industrial Engineering, 2nd year + PEY"
+                  linkedin="https://www.linkedin.com/in/hayden-groer-48a7a5242/"
+                  blurb="Hayden joined the Seismic Design Team to learn new coding technical skills and to learn how to work on software projects as part of a team. He is looking forward to maximizing structural efficiency and enhancing his project management and 3D modelling skills. Hayden is excited about connecting with team members from various disciplines and faculties. In his free time, he likes to play basketball and engage in NBA analytics." />
 
+                <Profile 
+                  image="leads-2022-2023/ryan.jpeg" 
+                  memberName="Ryan Philip"
+                  role="Digital Solution Specialist" 
+                  discipline="Computer Engineering, 2nd year + PEY"
+                  linkedin="https://www.linkedin.com/in/ryan-philip-917a05247"
+                  blurb="Ryan is a 2nd Year ECE student and joined UTSD in order to gain valuable experience working with a team to complete a large project. He is also interested in learning various optimization algorithms as well work with people from different disciplines. His goal is to learn a lot about structural engineering, which is quite different from ECE, and to make a meaningful contribution to the team. " />
+
+                <Profile 
+                  image="leads-2022-2023/catherine.jpeg" 
+                  memberName="Catherine Li" 
+                  role="Digital Solution Specialist" 
+                  discipline="Computer Engineering, 2nd year + PEY"
+                  linkedin="https://www.linkedin.com/in/catherine-li-/"
+                  blurb="Catherine was in Track One engineering in first year, and while she eventually chose computer engineering, civil engineering was a close second choice for her because of her love for structures and hands-on projects. At UTSD, she is eager to combine her love for programming with her interests in structures. In her free time, Catherine loves to build jigsaw puzzles, run, or hike with her dog." />
+              </div>
+            </div>
+
+            <div className="row mb-5 mr-2 ml-2">
+              <h2 className="big-font text-dark mb-5"> Multimedia </h2>
+              <div className="row">
                 <Profile 
                   image="leads-2022-2023/meg sarah.jpeg" 
                   memberName="Meg Sarah Melendres" 
@@ -226,43 +295,20 @@ export default class About extends Component {
                   blurb="Meg was interested in joining as the concept of building a tower using woods appealed to her. It was similar to when she made an Eiffel Tower using matchsticks. Through her position as a Media and Graphic Designer, she would want to promote the amazing work the team is doing to encourage more people to join the team. Aside from her role, she also expects to learn the technicalities of designing buildings and pick up some technical skills if an opportunity comes. Meg is currently in her PEY in Alberta and has been hiking. Every time she gets home, she learns she always rips her pants on hikes.  " />
 
                 <Profile 
+                  image="leads-2022-2023/sodaba.jpeg" 
+                  memberName="Sodaba Nooristani" 
+                  role="Media and Graphic Designer" 
+                  discipline="Civil Engineering, 2nd year + PEY"
+                  linkedin="https://www.linkedin.com/in/sodaba-nooristani-6453611b5/"
+                  blurb="Sodaba joined UTSD in 2022. She is interested in the basics of structural engineering, and design. She wishes to use her position to promote the team's projects and inspire future team members to join. Sodaba hopes to learn the technicalities of seismic design, and to be apart of team effort to solve future problems. In her free time, she enjoys reading, listening to music and playing the violin. "/>
+
+                <Profile 
                   image="leads-2022-2023/dana.jpg" 
                   memberName="Dana Aladallal" 
                   role="Social Manager" 
                   discipline="Civil Engineering, 3rd year + PEY"
                   linkedin="https://www.linkedin.com/in/dana-aladallal-59406b225"
                   blurb="Dana has always been fascinated by the science behind earthquake engineering and has always wanted to explore the technology and design around it. As a social manager, she aims to connect and motivate the team in order to achieve outstanding results. A personal fun fact would be her love for the colour green!" />
-              </div>
-            </div>
-
-            <div className="row mb-5 mr-2 ml-2">
-              <h2 className="big-font text-dark mb-5"> Architecture </h2>
-              <div className="row">
-                <Profile 
-                  image="leads-2022-2023/adela.jpg" 
-                  memberName="Adela Hua" 
-                  role="Architecture Manager"
-                  discipline="Architecture Studies, 4th year" 
-                  linkedin="https://www.linkedin.com/in/abubukker-chaudhary-b111591b7/"
-                  portfolio="https://makurophage.wixsite.com/portfolio"
-                  blurb="Adela is a fourth-year Architectural Studies Design Specialist student with a particular interest in visualization and graphic representation. This will be her third year working with the team, and she is currently most excited about the expanded architecture roles and architecture mini-projects as well as new construction methods to be tested before the competition. She designs and draws characters in her free time." />
-                
-                <Profile 
-                  image="leads-2022-2023/adrian.jpg" 
-                  memberName="Adrian Yu"
-                  role="Architecture Design Specialist" 
-                  discipline="Architecture Studies, 3rd year"
-                  linkedin="https://www.linkedin.com/in/adrian-y-549b7818a"
-                  portfolio="https://www.instagram.com/visuals.trance"
-                  instagram="https://www.instagram.com/artofadrn"
-                  blurb="Adrian joined the Seismic Design Team because of the learning opportunities a collaboration between engineers and architects provides. With a background in architectural design, photography, and 3D visualization, he hopes to assist the team in the design process and help produce compelling visuals. Adrian also enjoys playing ice hockey and badminton in his free time." />
-                 
-                 <Profile 
-                  image="leads-2022-2023/rahat.jpeg" 
-                  memberName="Rahat Mirza"
-                  role="Architecture Design Specialist" 
-                  discipline="Architecture Studies, 2nd year"
-                  blurb="Rahat is a current second-year architecture student who joined the seismic team to enrich her knowledge of the integration between design and structure. She wishes to gain valuable experience and looks forward to learning from her peers. During her free time, she can be found either catching up on lost sleep or re-watching the office." />
               </div>
             </div>
 
