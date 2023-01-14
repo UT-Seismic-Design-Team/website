@@ -46,9 +46,6 @@ export default class Sponsors2019 extends Component {
     return (
       <div>
         <SponsorComponent data={data} />
-        <p className="text-center">
-          Interested in our team? Learn more <Link to="/contact"> here </Link>
-        </p>
       </div>
     );
   }

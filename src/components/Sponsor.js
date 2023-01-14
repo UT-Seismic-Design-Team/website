@@ -1,5 +1,6 @@
 import React, { Component, useEffect, useRef } from 'react';
 import { Tooltip } from  'bootstrap';
+import { Link } from "react-router-dom";
 import "./Sponsor.css"
 
 const SponsorCard = ({ sponsor, year, sponsorLevel }) => {
@@ -159,6 +160,14 @@ export const SponsorComponent = ({ data }) => {
           </div>
         </div>
       )}
+      <h1 className="text-center" style={{ lineHeight: 1.2 }}>
+        <span className="text-primary ">Interested </span>
+        in our team? Learn more{" "}
+        <Link to="/contact" style={{ textDecoration: "none" }}>
+          {" "}
+          here{" "}
+        </Link>
+      </h1>
     </div>
   );
 }

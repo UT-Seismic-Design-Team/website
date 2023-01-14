@@ -22,9 +22,6 @@ export default class Sponsors2021 extends Component {
     return (
       <div>
         <SponsorComponent data={data} />
-        <p className="text-center">
-          Interested in our team? Learn more <Link to="/contact"> here </Link>
-        </p>
       </div>
     );
   }

@@ -70,9 +70,6 @@ export default class Sponsors2020 extends Component {
           Thank you to all the sponsors that supported us in our 2020 season!
         </h1>
         <SponsorComponent data={data} />
-        <p className="text-center">
-          Interested in our team? Learn more <Link to="/contact"> here </Link>
-        </p>
       </div>
     );
   }
