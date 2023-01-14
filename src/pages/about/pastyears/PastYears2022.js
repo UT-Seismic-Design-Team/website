@@ -4,7 +4,7 @@ import gallery from "../../../util/gallery-organization.json";
 import './pastYears.css'
 
 const SPECKLE_MODEL_STREAM =
-  "https://speckle.xyz/embed?stream=6d14b7665a&commit=4c33359c5e";
+  "https://speckle.xyz/embed?stream=499884e71d&commit=e8dface33a&c=%5B22.58372%2C57.25625%2C78.99198%2C-26.65825%2C8.01428%2C29.75%2C0%2C1%5D&hidesidebar=true";
 
 export default class Sponsors2022 extends Component {
     render() {

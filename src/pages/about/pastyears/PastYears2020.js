@@ -4,7 +4,7 @@ import PerformanceTable from '../../../components/PerformanceTable';
 import "./pastYears.css";
 
 const SPECKLE_MODEL_STREAM =
-  "https://speckle.xyz/embed?stream=6d14b7665a&commit=4c33359c5e";
+  "https://speckle.xyz/embed?stream=499884e71d&commit=38bbf0b083&hidesidebar=true";
 
 export default class Sponsors2020 extends Component {
   constructor(props) {
