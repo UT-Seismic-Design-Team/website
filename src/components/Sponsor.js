@@ -1,4 +1,177 @@
-import React, { Component } from 'react';
+import React, { Component, useEffect, useRef } from 'react';
+import { Tooltip } from  'bootstrap';
+import { Link } from "react-router-dom";
+import "./Sponsor.css"
+
+const SponsorCard = ({ sponsor, year, sponsorLevel }) => {
+  const tooltipRef = useRef();
+
+  useEffect(() => {
+    var tooltip = new Tooltip(tooltipRef.current, {
+      title: sponsor.name,
+      placement: "bottom",
+      trigger: "hover",
+    });
+  });
+  return (
+    <div>
+        <button
+          className="sponsorImageButton"
+          data-toggle="modal"
+          data-target={`#myModal${sponsor.name.replace(/ /g, "")}`}
+        >
+          <img
+            ref={tooltipRef}
+            className={`${sponsorLevel}SponsorImage sponsorImage`}
+            src={require(`../images/Sponsors/${sponsor.logo}`)}
+            alt={sponsor.name}
+          />
+        </button>
+      <div
+        className="modal fade"
+        id={`myModal${sponsor.name.replace(/ /g, "")}`}
+        role="dialog"
+      >
+        <div className="modal-dialog">
+          <div className="modal-content">
+            <div className="modal-header">
+              <h4 className="modal-title">{sponsor.name}</h4>
+              <button type="button" className="close" data-dismiss="modal">
+                &times;
+              </button>
+            </div>
+            <div className="modal-body">
+              <p>{sponsor.description}</p>
+            </div>
+            <p>
+              <a
+                className="btn btn-info"
+                target="_blank"
+                rel="noopener noreferrer"
+                href={sponsor.link}
+              >
+                Read More
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+
+}
+
+
+export const SponsorComponent = ({ data }) => {
+  return (
+    <div className="w-100">
+      {data?.diamond && data.diamond.length && (
+        <div className="partners diamondSponsors">
+          <div>
+            <h3>Diamond Sponsors</h3>
+            <div className="sponsorsList">
+              {data.diamond.map((sponsor, i) => {
+                return (
+                  <SponsorCard
+                    key={i}
+                    sponsor={sponsor}
+                    year={data.year}
+                    sponsorLevel="diamond"
+                  />
+                );
+              })}
+            </div>
+          </div>
+        </div>
+      )}
+      {data?.gold && data.gold.length && (
+        <div className="partners goldSponsors">
+          <div>
+            <h3>Gold Sponsors</h3>
+            <div className="sponsorsList">
+              {data.gold.map((sponsor, i) => {
+                return (
+                  <SponsorCard
+                    key={i}
+                    sponsor={sponsor}
+                    year={data.year}
+                    sponsorLevel="gold"
+                  />
+                );
+              })}
+            </div>
+          </div>
+        </div>
+      )}
+      {data?.silver && data.silver.length && (
+        <div className="partners silverSponsors">
+          <div>
+            <h3>Silver Sponsors</h3>
+            <div className="sponsorsList">
+              {data.silver.map((sponsor, i) => {
+                return (
+                  <SponsorCard
+                    key={i}
+                    sponsor={sponsor}
+                    year={data.year}
+                    sponsorLevel="silver"
+                  />
+                );
+              })}
+            </div>
+          </div>
+        </div>
+      )}
+      {data?.bronze && data.bronze.length && (
+        <div className="partners bronzeSponsors">
+          <div>
+            <h3>Bronze Sponsors</h3>
+            <div className="sponsorsList">
+              {data.bronze.map((sponsor, i) => {
+                return (
+                  <SponsorCard
+                    key={i}
+                    sponsor={sponsor}
+                    year={data.year}
+                    sponsorLevel="bronze"
+                  />
+                );
+              })}
+            </div>
+          </div>
+        </div>
+      )}
+      {data?.partner && data.partner.length && (
+        <div className="partners partnerSponsors">
+          <div>
+            <h3>Corporate Partners</h3>
+            <div className="sponsorsList">
+              {data.partner.map((sponsor, i) => {
+                return (
+                  <SponsorCard
+                    key={i}
+                    sponsor={sponsor}
+                    year={data.year}
+                    sponsorLevel="partner"
+                  />
+                );
+              })}
+            </div>
+          </div>
+        </div>
+      )}
+      <h1 className="text-center" style={{ lineHeight: 1.2 }}>
+        <span className="text-primary ">Interested </span>
+        in our team? Learn more{" "}
+        <Link to="/contact" style={{ textDecoration: "none" }}>
+          {" "}
+          here{" "}
+        </Link>
+      </h1>
+    </div>
+  );
+}
+
 
 export default class Sponsor extends Component {
 
