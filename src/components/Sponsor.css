@@ -25,6 +25,7 @@
   cursor: pointer;
   outline: none;
   margin: 30px;
+  aspect-ratio: 16/9;
 }
 
 .sponsorImageButton:focus {
@@ -52,7 +53,7 @@
 }
 
 .diamondSponsorImage{
-  object-fit: cover;
+  object-fit: contain;
   width: 380px;
   height: 100%;
 }
@@ -70,9 +71,9 @@
 }
 
 .goldSponsorImage{
-  object-fit: cover;
+  object-fit: contain;
   width: 340px;
-  height: 100%;
+  height: 56.25%;
 }
 
 /* SILVER */
@@ -82,9 +83,9 @@
 }
 
 .silverSponsorImage{
-  object-fit: cover;
+  object-fit: contain;
   width: 200px;
-  height: 100%;
+  height: 56.25%;
 }
 
 .silverSponsors h3 {
@@ -100,9 +101,9 @@
 }
 
 .bronzeSponsorImage{
-  object-fit: cover;
-  width: 100px;
-  height: 100%;
+  object-fit: contain;
+  width: 120px;
+  height: 56.25%;
 }
 
 /* COORPORATE */
@@ -113,7 +114,7 @@
 }
 
 .partnerSponsorImage{
-  object-fit: cover;
-  width: 110px;
-  height: 100%;
+  object-fit: contain;
+  width: 100px;
+  height: 56.25%;
 }
