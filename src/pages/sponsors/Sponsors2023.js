@@ -22,6 +22,15 @@ const data = {
       link: "https://www.rjc.ca/",
     },
   ],
+  bronze: [
+    {
+      name: "PICCO Engineers",
+      logo: "PICCO_2023.png",
+      description:
+        "SHAPING PROGRESS. DESIGNING LEGACY. PICCO Engineering is an award-winning professional services firm founded in 1992, with 3 distinct areas of expertise:STONE consulting, cladding and engineered anchor systems.RESIDENTIAL engineering for low/mid/high-rise structures.STRUCTURAL engineering that applies to a variety of building types and materials.We are proud to have developed numerous long-term relationships with our valued clients over the years, and understand the importance of collaboration, trust and respect in all our interactions. We believe there is an innovative solution to every engineering challenge as we strive to facilitate the vision of our clients",
+      link: "https://picco-engineering.com/",
+    },
+  ],
 };
 
 export default class Sponsors2023 extends Component {
