@@ -30,6 +30,13 @@ const data = {
         "SHAPING PROGRESS. DESIGNING LEGACY. PICCO Engineering is an award-winning professional services firm founded in 1992, with 3 distinct areas of expertise:STONE consulting, cladding and engineered anchor systems.RESIDENTIAL engineering for low/mid/high-rise structures.STRUCTURAL engineering that applies to a variety of building types and materials.We are proud to have developed numerous long-term relationships with our valued clients over the years, and understand the importance of collaboration, trust and respect in all our interactions. We believe there is an innovative solution to every engineering challenge as we strive to facilitate the vision of our clients",
       link: "https://picco-engineering.com/",
     },
+    {
+      name: "LEA Consulting Ltd",
+      logo: "LEA.png",
+      description:
+        "Canada-based LEA Consulting Ltd. (LEA Canada) has been in operation since 1953. Specializing in infrastructure engineering, planning, and contract administration, LEA Canada has built a reputation across the country for delivering innovative solutions in project management, transportation planning, intelligent transportation systems (ITS), infrastructure security, contract administration, highway and municipal services, and bridge and building design.",
+      link: "https://www.lea.ca/",
+    },
   ],
 };
 
