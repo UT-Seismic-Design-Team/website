@@ -18,7 +18,7 @@ const BlogItem = ({
         {/* Cover Image */}
         <img
           className="blogItem-cover"
-          src={require("../images/Blogs/" + cover)}
+          src={cover}
           alt="cover"
         />
 
@@ -36,7 +36,7 @@ const BlogItem = ({
         <footer>
           <div className="blogItem-author">
             <img
-              src={require("../images/Team/leads-2022-2023/" + authorAvatar)}
+              src={authorAvatar}
               alt="avatar"
             />
             <div>
