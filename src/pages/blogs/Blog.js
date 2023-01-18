@@ -82,12 +82,6 @@ const Blog = () => {
 
           {/* Blog Body */}
 
-          {/* TODO: Add more customizability like  
-          1. different sections - DONE
-          2. each section would have a title and a list of paragraphs - DONE
-          3. make it so the list also has images accompaning the paragraphs - DONE
-          4. Add a section for author with the links to his social - DONE
-          */}
           <div className="blog-body">
             {blog.sections.map((section, index) => {
               {
