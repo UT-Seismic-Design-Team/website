@@ -9,6 +9,7 @@ import {
   FaInstagramSquare,
   FaLinkedin,
   FaRegIdCard,
+  FaGithubSquare,
 } from "react-icons/fa";
 
 
@@ -41,25 +42,30 @@ const Blog = () => {
       </Link>
 
       {/* Social Links */}
-      <div class="sticky-container">
-        <ul class="sticky">
-          <li>
-            <a href="https://github.com/kaison428" target="_blank">
-              <FaInstagramSquare style={{ fontSize: "30px", color: "#0077B5" }} />
-            </a>
-          </li>
-          <li>
-            <a href="https://www.linkedin.com/in/siu-kai-cheung/" target="_blank">
-              <FaLinkedin style={{ fontSize: "30px", color: "#0077B5" }} />
-            </a>
-          </li>
-          <li>
-            <a href="kaisoncheung.me" target="_blank">
-              <FaRegIdCard style={{ fontSize: "30px", color: "#0077B5" }} />
-            </a>
-          </li>
-        </ul>
-      </div>
+      {blog && (
+        <div className="sticky-container">
+          <ul className="sticky">
+            {blog.authorSocials.map((social, i) => {
+              return (
+                <li key={i}>
+                  <a href={social.link} target="_blank">
+                  {
+                    social.type === "github" ? (
+                      <FaGithubSquare style={{ fontSize: "30px", color: "#0077B5" }} />
+                    ) : social.type === "linkedin" ? (
+                      <FaLinkedin style={{ fontSize: "30px", color: "#0077B5" }} />
+                    ) : social.type === "instagram" ? (
+                      <FaInstagramSquare style={{ fontSize: "30px", color: "#0077B5" }} />
+                    ) : 
+                      <FaRegIdCard style={{ fontSize: "30px", color: "#0077B5" }} />
+                  }
+                  </a>
+                </li>
+              );
+            })}
+          </ul>
+        </div>
+      )}
 
       {/* Blog Data & Empty View */}
       {blog ? (
@@ -81,7 +87,6 @@ const Blog = () => {
           <img src={blog.cover} alt="cover" />
 
           {/* Blog Body */}
-
           <div className="blog-body">
             {blog.sections.map((section, index) => {
               {
