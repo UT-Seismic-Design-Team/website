@@ -5,6 +5,7 @@
   "dependencies": {
     "@types/react": "^18.0.25",
     "bootstrap": "^4.4.1",
+    "firebase": "^9.13.0",
     "fs": "0.0.1-security",
     "glob": "^7.1.6",
     "jquery": "^3.5.1",
