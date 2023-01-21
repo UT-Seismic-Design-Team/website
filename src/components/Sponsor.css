@@ -1,0 +1,120 @@
+.sponsorComponentWrapper{
+  width: 100%;
+}
+
+.partners{
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 3em;
+}
+
+.sponsorsList{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.sponsorImageButton{
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: none;
+  margin: 30px;
+  aspect-ratio: 4/3;
+}
+
+.sponsorImageButton:focus {
+  outline: 0 !important;
+}
+
+.sponsorImage{
+  transition: transform .2s,-webkit-transform .2s;
+}
+
+.sponsorImage:hover{
+  transform: scale(1.2)
+}
+
+/* DIAMOND */
+.diamondSponsors{
+  background: linear-gradient(180deg,#B9F2FF,rgba(247,181,49,0));
+  width: 80vw;
+}
+
+.diamondSponsors h3{
+  color: #43b1ca;
+  margin-bottom: 1.125em;
+  filter: drop-shadow(0 4px 4px #B9F2FF);
+}
+
+.diamondSponsorImage{
+  object-fit: contain;
+  width: 600px;
+  height: 56.25%;
+}
+
+/* GOLD */
+.goldSponsors{
+  background: linear-gradient(180deg,rgba(247,181,49,.375),rgba(247,181,49,0));
+  width: 80vw;
+}
+
+.goldSponsors h3{
+  color: #e58123;
+  margin-bottom: 1.125em;
+  filter: drop-shadow(0 4px 4px rgba(247,181,49,.5));
+}
+
+.goldSponsorImage{
+  object-fit: contain;
+  width: 340px;
+  height: 56.25%;
+}
+
+/* SILVER */
+.silverSponsors{
+  background: linear-gradient(180deg,rgba(91,91,92,.25),rgba(91,91,92,0));
+  width: 80vw;
+}
+
+.silverSponsorImage{
+  object-fit: contain;
+  width: 200px;
+  height: 56.25%;
+}
+
+.silverSponsors h3 {
+  color: #5b5b5c;
+  filter: drop-shadow(0 4px 4px rgba(0,0,0,.25));
+  margin-bottom: 1.125em;
+}
+
+/* BRONZE */
+.bronzeSponsors{
+  background: linear-gradient(180deg,rgba(205,127,50,.375),rgba(247,181,49,0));
+  width: 80vw;
+}
+
+.bronzeSponsorImage{
+  object-fit: contain;
+  width: 120px;
+  height: 56.25%;
+}
+
+/* COORPORATE */
+
+.partnerSponsors{
+  background: linear-gradient(180deg,hsla(0,0%,84.7%,.375),rgba(247,181,49,0));
+  width: 80vw;
+}
+
+.partnerSponsorImage{
+  object-fit: contain;
+  width: 110px;
+  height: 56.25%;
+}
