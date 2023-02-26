@@ -2,13 +2,13 @@ import firebase from "firebase/compat/app";
 import "firebase/compat/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBe626Ey8sn8zEZwa8juT7vCHb1TOA60KQ",
-  authDomain: "blogdata-9b74d.firebaseapp.com",
-  projectId: "blogdata-9b74d",
-  storageBucket: "blogdata-9b74d.appspot.com",
-  messagingSenderId: "558355587053",
-  appId: "1:558355587053:web:26437f7e3e560588f851e4",
-  measurementId: "G-ZRD179ZSYB",
+  apiKey: "AIzaSyAETOPFBF-82IrnNVZ1V8_HMNDmHQ2OCTA",
+  authDomain: "seismic-website-c0e9b.firebaseapp.com",
+  projectId: "seismic-website-c0e9b",
+  storageBucket: "seismic-website-c0e9b.appspot.com",
+  messagingSenderId: "739854171607",
+  appId: "1:739854171607:web:873a73727204d55b5c9f92",
+  measurementId: "G-0YDFCQMJGF",
 };
 
 firebase.initializeApp(firebaseConfig);
