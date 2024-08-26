@@ -1,10 +1,10 @@
-import React, { Component } from 'react';
-import '../../App.css';
-import AppNavbar from '../../components/Navbar';
-import Footer from '../../components/Footer';
-import Profile from '../../components/Profile';
+import React, { Component } from "react";
+import "../../App.css";
+import AppNavbar from "../../components/Navbar";
+import Footer from "../../components/Footer";
+import Profile from "../../components/Profile";
 // import { Link } from 'react-router-dom';
-import { Container } from 'reactstrap';
+import { Container } from "reactstrap";
 
 export default class About extends Component {
   render() {
@@ -18,18 +18,31 @@ export default class About extends Component {
         </div>
         <Container fluid>
           <div className="col-lg-10 body-content">
-            
             <div className="row mt-5 mb-5 mr-2 ml-2">
               <div className="col-lg card">
                 <div className="card-body">
                   <p>
-                    The University of Toronto Seismic Design Team (UTSD) is comprised of both engineering and architectural undergraduates who collaborate on designing, building, and analyzing a scaled balsa wood model of a high rise structure.
-                  <br /><br />
-                  In the annual EERI Undergraduate Seismic Design Competition (SDC), the team will be judged on the structural model’s seismic performance, delivery of an oral presentation, poster design, architectural design and general workmanship.
-                  Collectively, all of these criteria are captured in a final score called the Final Annual Building Income (FABI) which is used to determine the winner.
-                  <br /><br />
-                  By designing a robust yet cost effective structure, UTSD team members are given an excellent hands-on opportunity to learn the basic principles of structural and seismic engineering in an out of classroom environment.
-                  Scroll down to learn more about the team this year!
+                    The University of Toronto Seismic Design Team (UTSD) is
+                    comprised of both engineering and architectural
+                    undergraduates who collaborate on designing, building, and
+                    analyzing a scaled balsa wood model of a high rise
+                    structure.
+                    <br />
+                    <br />
+                    In the annual EERI Undergraduate Seismic Design Competition
+                    (SDC), the team will be judged on the structural model’s
+                    seismic performance, delivery of an oral presentation,
+                    poster design, architectural design and general workmanship.
+                    Collectively, all of these criteria are captured in a final
+                    score called the Final Annual Building Income (FABI) which
+                    is used to determine the winner.
+                    <br />
+                    <br />
+                    By designing a robust yet cost effective structure, UTSD
+                    team members are given an excellent hands-on opportunity to
+                    learn the basic principles of structural and seismic
+                    engineering in an out of classroom environment. Scroll down
+                    to learn more about the team this year!
                   </p>
                 </div>
               </div>
@@ -43,303 +56,265 @@ export default class About extends Component {
 
             <div className="row mb-5 mr-2 ml-2">
               <div className="row">
-                <Profile 
-                  image="leads-2022-2023/kaison.jpeg" 
-                  memberName="Siu Kai (Kaison) Cheung" 
+                {/* <Profile
+                  image="leads-2022-2023/kaison.jpeg"
+                  memberName="Siu Kai (Kaison) Cheung"
                   role="Team Co-Captain"
                   discipline="Civil Engineering, 4th year + PEY"
                   linkedin="https://www.linkedin.com/in/siu-kai-cheung/"
                   github="https://github.com/kaison428"
                   portfolio="kaisoncheung.me"
-                  blurb="Kaison joined the team in his first year, and he has taken on multiple roles since then, including Design and Analysis, Construction, and Webmaster. He enjoys working with people from different disciplines and building something impressive together. He is excited to see what the team can accomplish this year and hopes everyone will benefit from the team experience." />
-                
-                <Profile 
-                  image="leads-2022-2023/grace.jpg" 
+                  blurb="Kaison joined the team in his first year, and he has taken on multiple roles since then, including Design and Analysis, Construction, and Webmaster. He enjoys working with people from different disciplines and building something impressive together. He is excited to see what the team can accomplish this year and hopes everyone will benefit from the team experience."
+                /> */}
+                <Profile
+                  image="leads-2023-2024/sacha.jpg"
+                  memberName="Sacha Morin"
+                  role="Team Co-Captain"
+                  discipline="CIV2T5"
+                  linkedin="www.linkedin.com/in/sachamorinn"
+                  blurb="Joining the team for a second year, I'm interested to find out about the responsibilities and abilities needed to lead such a large team. I expect for the team to find the best way to organize and construct the tower. Fun fact, I am from Canada's capital city!"
+                />
+
+                <Profile
+                  image="leads-2023-2024/yuqi.jpg"
                   memberName="Yuqi (Grace) Hu"
                   role="Team Co-Captain"
-                  discipline="Civil Engineering, 3rd year + PEY"
+                  discipline="CIV2T3+PEY"
                   linkedin="https://www.linkedin.com/in/yuqi-grace-hu-a32065194/"
-                  blurb="Grace is excited about her fourth year on the team and looks forward to learning more about structural/earthquake engineering. She enjoys discussing seismic design and construction challenges with her teammates. As a team co-captain this year, she would like to introduce earthquake engineering to more people and build a team that everyone can be proud of." />
+                  blurb="Grace is interested in structural design and earthquake engineering and has joined the UTSD in her first-year university. With her five years of experience in UTSD, she wants to apply her knowledge in design and construction to enhance the technical aspect of the team while fostering a positive team culture. As a team co-captain, she hopes everyone can benefit from this team experience and have fun this year."
+                />
               </div>
             </div>
-            
-            <div className="row mb-5 mr-2 ml-2">
+
+            {/* <div className="row mb-5 mr-2 ml-2">
               <h2 className="big-font text-dark mb-5"> Team Directors </h2>
-              <div className="row">                   
-                <Profile 
-                  image="leads-2022-2023/michael metallo.jpeg" 
-                  memberName="Michael Metallo" 
-                  role="Executive Director" 
+              <div className="row">
+                <Profile
+                  image="leads-2022-2023/michael metallo.jpeg"
+                  memberName="Michael Metallo"
+                  role="Executive Director"
                   discipline="Civil Engineering, 4th year + PEY"
                   linkedin="https://www.linkedin.com/in/michael-metallo-4a4323185/"
-                  blurb="Michael joined UTSD in order to gain a better understanding of structural engineering and learn more about optimizing construction. He thinks that UTSD provides a great opportunity for anyone to learn about both building design and construction in a fun team environment." />                  
+                  blurb="Michael joined UTSD in order to gain a better understanding of structural engineering and learn more about optimizing construction. He thinks that UTSD provides a great opportunity for anyone to learn about both building design and construction in a fun team environment."
+                />
               </div>
-            </div>
+            </div> */}
 
             <div className="row mb-5 mr-2 ml-2">
               <h2 className="big-font text-dark mb-5"> Architecture </h2>
               <div className="row">
-                <Profile 
-                  image="leads-2022-2023/adela.jpg" 
-                  memberName="Adela Hua" 
-                  role="Architecture Manager"
-                  discipline="Architecture Studies, 4th year" 
-                  linkedin="https://www.linkedin.com/in/abubukker-chaudhary-b111591b7/"
-                  portfolio="https://makurophage.wixsite.com/portfolio"
-                  blurb="Adela is a fourth-year Architectural Studies Design Specialist student with a particular interest in visualization and graphic representation. This will be her third year working with the team, and she is currently most excited about the expanded architecture roles and architecture mini-projects as well as new construction methods to be tested before the competition. She designs and draws characters in her free time." />
-                
-                <Profile 
-                  image="leads-2022-2023/adrian.jpg" 
-                  memberName="Adrian Yu"
-                  role="Architecture Design Specialist" 
-                  discipline="Architecture Studies, 3rd year"
-                  linkedin="https://www.linkedin.com/in/adrian-y-549b7818a"
-                  portfolio="https://www.instagram.com/visuals.trance"
-                  instagram="https://www.instagram.com/artofadrn"
-                  blurb="Adrian joined the Seismic Design Team because of the learning opportunities a collaboration between engineers and architects provides. With a background in architectural design, photography, and 3D visualization, he hopes to assist the team in the design process and help produce compelling visuals. Adrian also enjoys playing ice hockey and badminton in his free time." />
-                 
-                 <Profile 
-                  image="leads-2022-2023/rahat.jpeg" 
-                  memberName="Rahat Mirza"
-                  role="Architecture Design Specialist" 
-                  discipline="Architecture Studies, 2nd year"
-                  blurb="Rahat is a current second-year architecture student who joined the seismic team to enrich her knowledge of the integration between design and structure. She wishes to gain valuable experience and looks forward to learning from her peers. During her free time, she can be found either catching up on lost sleep or re-watching the office." />
+                <Profile
+                  image="leads-2023-2024/geng.jpg"
+                  memberName="Anna Geng"
+                  role="Architecture Design Specialist"
+                  discipline="ARC2T6"
+                  linkedin="linkedin.com/in/anna-geng"
+                  blurb="This is Anna's second year in architecture and first year at UTSD. She joined the team to learn about the engineering and construction side of built projects. She is knowledgeable in architectural programming, design, and visualization in stills and videos. In her free time, Anna loves to explore different forms of art."
+                />
               </div>
             </div>
 
             <div className="row mb-5 mr-2 ml-2">
-              <h2 className="big-font text-dark mb-5"> Design and Analysis Specialists </h2>
+              <h2 className="big-font text-dark mb-5">
+                {" "}
+                Design and Analysis Specialists{" "}
+              </h2>
               <div className="row">
-                <Profile 
-                    image="leads-2022-2023/ishaan.jpg" 
-                    memberName="Ishaan Singh Chandok" 
-                    role="Senior Design and Analysis Specialists"
-                    discipline="Mathematics and Physics Specialist, 4th year"
-                    blurb="Ishaan is working on finding methods to aid in the design of the competition tower. Some projects he is interested in include using an iterative procedure to find redundant sections and to use topology optimization to inspire initial designs for the tower. " />
-                
-                <Profile 
-                  image="leads-2022-2023/mihir.jpeg" 
-                  memberName="Mihir Agarwal" 
-                  role="Junior Design and Analysis Specialists"
-                  discipline="Civil Engineering, 2nd year"
-                  linkedin="https://www.linkedin.com/in/mihir-agarwal-423b6520a/"
-                  blurb="Mihir is a Second Year Civil Engineering student at the University of Toronto. He is very excited to be in UTSD as it gives him the exposure to practical projects. He intends to major in structural engineering which is why he finds UTSD to be crucial and expects his role and experience with the team to be incredibly fruitful. He is really excited to understand the impacts of Programming and Artificial Intelligence into the design aspects of Structural and Civil Engineering. He loves to travel and sings a lot. He follows and plays a lot of sports such as Cricket and Football. " />
-
-                <Profile 
-                  image="leads-2022-2023/arman.jpeg" 
-                  memberName="Arman Bains" 
-                  role="Junior Design and Analysis Specialists"
-                  discipline="Civil Engineering, 3rd year + PEY"
-                  linkedin="https://www.linkedin.com/in/arman-singh-bains"
-                  blurb="Arman is a returning executive member, previously the Finance Executive for the team. What interested him to join was the ability to gain experience in various engineering software used in the industry and gain technical knowledge. In the role of Junior Design and Analysis Specialist, he would like to work on developing the code for Auto Builder in the design. Arman hopes to gain more technical experience and to develop relationships with the team members. During time off, Arman enjoys to go biking on the Humber Trail. " />
-
-                <Profile 
-                  image="leads-2022-2023/queena.jpeg" 
-                  memberName="Yuyin (Queena) Zheng" 
-                  role="Junior Design and Analysis Specialists"
-                  discipline="Civil Engineering, 3rd year + PEY"
-                  linkedin="https://linkedin.com/in/yuyinqueenazheng-uoft"
-                  blurb="Yuyin Queena Zheng is a CIV2T3 + PEY. She is currently in her PEY term this year. She is interested in joining UTSD because she would love to explore a bit more about structural engineering as a big fan of skyscrapers! She hopes to contribute to the structural design and material testing in the design and analysis team. Her goal for this experience on the team would be to collaborate with teammates to achieve good results in the competition, and also to meet more amazing people sharing the common passion for structural engineering. A fun fact about her is that she loves trying different sports." />
-
-                <Profile 
-                  image="leads-2022-2023/prapti.jpeg" 
-                  memberName="Syeda Rana Prapti" 
-                  role="Junior Design and Analysis Specialists"
-                  discipline="Civil Engineering, 3rd year + PEY"
-                  linkedin="https://www.linkedin.com/in/syeda-rana-prapti"
-                  blurb="Prapti has a strong passion towards pursuing structural engineering after graduation. She joined the seismic design team to enhance her understanding of the structural concepts and utilize a team learning environment to further cultivate her design and analysis skills. " />
-                
-                <Profile 
-                  image="leads-2022-2023/awale.jpg" 
-                  memberName="Awale Omar" 
-                  role="Junior Design and Analysis Specialists" 
-                  discipline="Civil Engineering, 3rd year + PEY"
-                  blurb="Awale is passionate about structural engineering and is eager to find ways to develop his skills in the field such as being on UTSD. He plans to work on shear wall and damper design. The end goal is to improve his skills in structural software and help the team attain success in the upcoming competition. On the weekends he loves to unwind by watching soccer." />
-
-                <Profile 
-                  image="leads-2022-2023/isha.jpg" 
-                  memberName="Isha Miftahul" 
-                  role="Junior Design and Analysis Specialists" 
-                  discipline="Civil Engineering, 3rd year"
-                  linkedin="https://www.linkedin.com/in/ishamiftahul/"
-                  blurb="Isha is returning from her summer work term, where she discovered her love for hands-on projects. She joined seismic to further apply her theoretical learning and explore her interest in structural design and analysis. She is also looking forward to collaborating with like-minded peers and acquiring technical skills. During her free time, Isha enjoys reading and kickboxing!" />
-
-                <Profile 
-                  image="leads-2022-2023/luana.jpeg" 
-                  memberName="Luana Zang" 
-                  role="Junior Design and Analysis Specialists" 
-                  discipline="Civil Engineering, 2nd year"
-                  linkedin="https://www.linkedin.com/in/luana-zang-914a55218"
-                  blurb="Luana took architecture courses in high school and gained interests in civil engineering, furthermore, UTSD. She looks forward in utilizing her passion in infrastructures to enhance the influence of UTSD. Luana hopes to gain great experience to aid her in becoming a reliable engineer. (She was in a marching band too 😝)" />
-
-                <Profile 
-                  image="leads-2022-2023/joyce.jpeg" 
-                  memberName="Joyce Zhong" 
-                  role="Junior Design and Analysis Specialists" 
-                  discipline="Civil Engineering, 2nd year"
+                <Profile
+                  image="leads-2023-2024/joyce.jpg"
+                  memberName="Joyce Zhong"
+                  role="Senior Design and Analysis Specialists"
+                  discipline="CIV2T5 + PEY"
                   linkedin="https://www.linkedin.com/in/joyce-zhong-736480230"
-                  blurb="Joyce joined the seismic design team with an interest in building analysis and architectural design. She wants to learn and improve with the team together to enrich her knowledge and skills in this specific area. She is super excited about this new experience and look forward to build a great year with the team." />
+                  blurb="Joyce joined the seismic design team with an interest in building analysis and architectural design. She wants to learn and improve with the team together to enrich her knowledge and skills in this specific area. She is super excited about this new experience and look forward to build a great year with the team."
+                />
+
+                <Profile
+                  image="leads-2023-2024/awale.jpg"
+                  memberName="Awale Omar"
+                  role="Senior Design and Analysis Specialists"
+                  discipline="CIV2T3 + PEY"
+                  linkedin="https://www.linkedin.com/in/awale-omar-64785a145"
+                  blurb="Awale is passionate about structural engineering and is eager to find ways to develop his skills in the field such as being on UTSD. He plans to work on shear wall and damper design. The end goal is to continue to develop his skills in seismic design and help the team attain success in the upcoming competition. On the weekends he loves to unwind by watching soccer."
+                />
+
+                <Profile
+                  image="leads-2023-2024/prapti.jpg"
+                  memberName="Prapti Syeda Rana"
+                  role="Senior Design and Analysis Specialists"
+                  discipline="CIV2T3+PEY"
+                  linkedin="https://www.linkedin.com/in/syeda-rana-prapti"
+                  blurb="Syeda Rana Prapti is finishing her PEY CO-OP this summer and starting her 4th year in the fall of 2023. This is her second year on the team, and she is excited to utilize her cultivated knowledge and skills. As part of the club, she expects to hone her practical skills while learning new elements of the seismic design of the tower. A fun little fact about her: she was a black belt in Taekwondo."
+                />
+
+                <Profile
+                  image="leads-2023-2024/bright.jpg"
+                  memberName="Bright Lin"
+                  role="Senior Design and Analysis Specialists"
+                  discipline="CIV 2T3 + PEY"
+                  blurb="Bright is a CIV 2T3 + PEY student interested in structural design. He wishes to win the Seismic Design Competition with an innovative design. He has years of experience with modelling structures and hopes he can be of help to the team. His expectations are that everyone also strives to do their best for the sake of wining the competition. Fun fact, he loves photography."
+                />
+
+                <Profile
+                  image="leads-2023-2024/james.jpg"
+                  memberName="James Bannister"
+                  role="Junior Design and Analysis Specialists"
+                  discipline="CIV2T3 + PEY"
+                  linkedin="https://www.linkedin.com/in/james-bannister-531159207"
+                  blurb="James has a strong interest in structural engineering and a fascination with seismic design. In this position, he hopes to design structures to withstand seismic forces and collaborate with fellow members to create innovative solutions. He looks forward to gaining practical experience, expanding his network, and making a positive impact within the seismic design community. James enjoys hiking, rock climbing, and playing the piano and trumpet in his spare time."
+                />
+                <Profile
+                  image="leads-2023-2024/ivan.jpg"
+                  memberName="Ivan Ngai"
+                  role="Junior Design and Analysis Specialists"
+                  discipline="CIV2T5 + PEY"
+                  linkedin="https://www.linkedin.com/in/ivan-ngai-a821951a7"
+                  blurb="Ivan has always been curious about how structures are built the way they are, he thinks that joining UTSD might be the best way to find out. He is eager to learn SAP2000 as he wants to pursue a career in structural related field. FUN FACT: It's physically impossible for pigs to look up into the sky"
+                />
+                <Profile
+                  image="leads-2023-2024/amina.jpg"
+                  memberName="Amina Al Maleh"
+                  role="Junior Design and Analysis Specialists"
+                  discipline="CIV2T3 + PEY"
+                  blurb="Amina is a soon to be fourth year civil engineering student studying at the University of Toronto (CIV2T3+PEY). Seismic/structural engineering sparked her interest throughout her PEY Co-op term as she work with engineers to complete studies on Canadian embassies around the world, to ensure they are suitable to withstand design seismic events. Amina is looking to get more experience in structural design and is looking forward to working with her peers."
+                />
+                <Profile
+                  image="leads-2023-2024/yijing.jpg"
+                  memberName="YiJing (Grace) Zhang"
+                  role="Junior Design and Analysis Specialists"
+                  discipline="CIV2T3 + PEY"
+                  linkedin="https://www.linkedin.com/in/grace-yijing-zhang-333b261b4"
+                  blurb="Grace is very excited to join UTSD this year! She is eager to explore more about structural engineering and gain experience in structural design. She looks forward to learning new skills and collaborating with people who share the same passion. During her spare time, she enjoys playing sports and music instruments."
+                />
+                <Profile
+                  image="leads-2023-2024/kelly.jpg"
+                  memberName="Kelly Wu"
+                  role="Junior Design and Analysis Specialists"
+                  discipline="CIV2T7 + PEY"
+                  linkedin="http://www.linkedin.com/in/kelly-wu-25a8621b6"
+                  blurb="Kelly is in her first year of civil engineering. She joined UTSD hoping to make new friends, learn from her mentors and peers, and get a feel of what it's like getting involved in seismic engineering. She looks forward to gaining valuable learning experience from her team and from their upcoming competitions. Kelly loves to play American football, go to the gym, and spend quality time with friends!"
+                />
+                <Profile
+                  image="leads-2023-2024/leila.jpg"
+                  memberName="Leila Rashidian"
+                  role="Junior Design and Analysis Specialists"
+                  discipline="ARC2T5"
+                  linkedin="https://ca.linkedin.com/in/leila-rashidian-042312230"
+                  portfolio="https://issuu.com/leila.rashidian/docs/rashidian_leila_portfolio"
+                  blurb="Leila joined UTSD to engage in a collaborative project with fellow students from both disciplines. Using her prior knowledge in architectural design and fabrication, she is excited to immerse herself in the team's activities while utilizing this opportunity to become proficient in advanced structural analysis software. A fun fact about Leila would be that she was born in England, grew up in Iran and Egypt, until finally coming to Toronto."
+                />
+                <Profile
+                  image="leads-2023-2024/jerome.jpg"
+                  memberName="Jerome Moo Lew"
+                  role="Junior Design and Analysis Specialists"
+                  discipline="CIV2T5"
+                  linkedin="http://linkedin.com/in/jerome-moo-lew-7846a6230"
+                  blurb="Leila joined UTSD to engage in a collaborative project with fellow students from both disciplines. Using her prior knowledge in architectural design and fabrication, she is excited to immerse herself in the team's activities while utilizing this opportunity to become proficient in advanced structural analysis software. A fun fact about Leila would be that she was born in England, grew up in Iran and Egypt, until finally coming to Toronto."
+                />
+                <Profile
+                  image="leads-2023-2024/rayan.jpg"
+                  memberName="Rayan Sibai"
+                  role="Junior Design and Analysis Specialists"
+                  discipline="CIV2T5 + PEY"
+                  linkedin="https://www.linkedin.com/in/rayan-sibai/"
+                  blurb="Rayan is a motivated and aspiring third-year civil engineering student with a keen interest in structural engineering. Rayan aims to contribute expertise, creativity, and a strong work ethic to advance the team's pursuit of excellence. He is eager to work on challenging projects, , collaborate with a dedicated team, and gain practical experience. Rayan expects this experience to provide valuable insights into real-world engineering practices, foster personal and professional growth, and make a meaningful impact within the team."
+                />
+                <Profile
+                  image="leads-2023-2024/jaidyn.jpg"
+                  memberName="Jaidyn Duan"
+                  role="Junior Design and Analysis Specialists"
+                  discipline="ENGSCI2T7+PEY"
+                  blurb="Jaidyn joined the seismic design team to explore what it means to design and test buildings that are safe for everyone. She wants to contribute to structural design and analysis within the team and learn from motivated, like-minded peers.  In her free time, Jaidyn enjoys jogging and participating in sports. She is super excited about this new experience and looks forward to meeting everyone!"
+                />
               </div>
             </div>
 
             <div className="row mb-5 mr-2 ml-2">
               <h2 className="big-font text-dark mb-5"> Construction Leads </h2>
               <div className="row">
-                <Profile 
-                  image="leads-2022-2023/rusafa.jpg" 
-                  memberName="Rusafa Rahman"
-                  role="Construction - Project Management Specialist" 
-                  discipline="Civil Engineering, 3rd year"
-                  linkedin="https://www.linkedin.com/in/rusafa-rahman-6161b2225/"
-                  blurb="Rusafa is passionate for project management and wishes to further explore structural analysis. UTSD is the perfect opportunity for her to gain experience in these core civil engineering field. She is determined to contribute to the overall organization of construction and is super excited to work with new faces! Also, she loves Italian food." />
+                <Profile
+                  image="leads-2023-2024/fabio.jpg"
+                  memberName="Fabio Karanja"
+                  role="Construction - Project Manager"
+                  discipline="CIV2T5 + PEY"
+                  linkedin="http://linkedin.com/in/fabio-karanja"
+                  blurb="Fabio joined the seismic design team during his second year. He enjoys designing, buildings, and management which is why he became a Construction project manager for the team for the 2023-2024 team. He is exited to gain new skills in 3D modelling software and CAD software which will aid him in pursuing his career, which will take the form of a mix of structural engineering and construction management. He expects the experience to be fun, challenging, and interesting. A fun fact about Fabio is that he can play the guitar and piano and speak 3 languages."
+                />
 
-                <Profile 
-                  image="leads-2022-2023/sacha.jpg" 
-                  memberName="Sacha Morin" 
-                  role="Construction - Project Management Specialist" 
-                  discipline="Civil Engineering, 2nd year"
-                  linkedin="https://www.linkedin.com/in/sachamorinn"
-                  blurb="Sacha is looking forward to joining UTSD for his first year as a team member! He is looking forward to expanding his knowledge from small residential homes in the world of tall buildings. He is eager to take on the challenge of building as quickly as possible a tower consisting of small wooden pieces." />                
-              
-              <Profile 
-                  image="leads-2022-2023/ananya.jpeg" 
-                  memberName="Ananya Saigal" 
-                  role="Construction - BIM & Manufacture Specialist" 
-                  discipline="Industrial Engineering, 2nd year"
-                  linkedin="https://www.linkedin.com/in/ananya-saigal"
-                  github="https://github.com/ananya-saigal"
-                  blurb="Ananya joined the seismic team to learn and experiment with new construction and fabrication technologies. She is excited to work with this innovative team; she want to contribute in creating an amazing tower together. She enjoys working with others and looks forward to learning from her team mates." />
+                <Profile
+                  image="leads-2023-2024/freddy.jpg"
+                  memberName="Freddy Fisher"
+                  role="Construction - Project Manager"
+                  discipline="CIV2T5 + PEY"
+                  linkedin="https://www.linkedin.com/in/frederic-cannon-fisher-b34484256/"
+                  blurb="Freddy joined UTSD because of his fascination for buildings and his eagerness for solving problems. He is looking forward to helping manage the construction of this year's tower alongside a group of motivated individuals. Born and raised in New York City, Freddy gained much of his passion for construction and architecture growing up in the concrete jungle."
+                />
 
-              <Profile 
-                  image="leads-2022-2023/michelle.jpg" 
-                  memberName="Meixi (Michelle) Zhou" 
-                  role="Construction - BIM & Manufacture Specialist" 
-                  discipline="Civil Engineering, 3rd year + PEY"
-                  linkedin="https://www.linkedin.com/in/meixi-zhou-1637401b7"
-                  blurb="Meixi (Michelle) is currently on PEY as Structural Designer Intern. She finds that UTSD provides her a great opportunity to learn both technical and soft skills and connect with experienced Alumni that will be helpful to my future career. She is excited to be a part of the team and solve challenges we might face in the future." />
-
-              <Profile 
-                  image="leads-2022-2023/siddhi.jpg" 
-                  memberName="Siddhi Bansal" 
-                  role="Construction - BIM & Manufacture Specialist" 
-                  discipline="Industrial Engineering, 2nd year + PEY"
-                  linkedin="http://linkedin.com/in/siddhi-bansal358"
-                  blurb="Siddhi joined the Seismic Team to grow her passion for manufacturing and designing. She is excited to explore different techniques used in construction of the tower and wants to solve the challenges that come up with it. Siddhi likes to collaborate with people and work on different projects."/>
-                
+                <Profile
+                  image="leads-2023-2024/jung.jpg"
+                  memberName="Anna Jung"
+                  role="Construction Specialist"
+                  discipline="EngSci 2T5"
+                  github="https://github.com/anna-jung"
+                  blurb="Anna has a strong passion towards structural engineering after taking CIV102 in Year 1. She joined the Seismic Design Team to enhance her understanding of the structural engineering and design as well as gaining hands-on experience. She is eager to be part of the team and explore different techniques to shorten the overall construction time of a tower made of balsa wood."
+                />
               </div>
             </div>
 
             <div className="row mb-5 mr-2 ml-2">
-              <h2 className="big-font text-dark mb-5"> Digital Solution Specialists </h2>
+              <h2 className="big-font text-dark mb-5">
+                {" "}
+                Digital Solution Specialists{" "}
+              </h2>
               <div className="row">
-                <Profile 
-                  image="leads-2022-2023/abubukker.jpeg" 
-                  memberName="Abubukker Chaudhary" 
+                <Profile
+                  image="leads-2023-2024/ajinkya.jpg"
+                  memberName="Ajinkya Bhosale"
                   role="Digital Solution Specialist"
-                  discipline="Electrical & Computer Engineering, 2nd year" 
-                  linkedin="https://www.linkedin.com/in/abubukker-chaudhary-b111591b7/"
-                  github="https://github.com/LunarFang416"
-                  blurb="Abubukker joined the seismic team as wanted to connect with people from different fields of study and help them in their line of work with his expertise. In his free time he likes to watch anime and code." />
-                
-                <Profile 
-                  image="leads-2022-2023/michael nguyen.jpg" 
-                  memberName="Michael (Viet Minh) Nguyen" 
-                  role="Digital Solution Specialist" 
-                  discipline="Computer Engineering, 2nd year"
-                  linkedin="https://www.linkedin.com/in/nvmichael/"
-                  blurb="Michael was looking to gain experience in web & software development. Knowing that UTSD members are very supportive and are willing to help him learn new programming skills, Michael was very interested and applied to join the team. He’s looking forward to learn and apply 3D modelling to the team’s websites and projects. He likes pineapple pizza." />
-                 
-                <Profile 
-                  image="leads-2022-2023/ajinkya.jpg" 
-                  memberName="Ajinkya Bhosale" 
-                  role="Digital Solution Specialist" 
-                  discipline="Computer Science, 2nd year"
+                  discipline="Computer Science, 3rd year"
+                  linkedin="https://www.linkedin.com/in/ajinkyabhosale-"
                   github="https://github.com/Ajinkya-B"
-                  blurb="Ajinkya joined the Seismic Design Team to learn the basics of structural design and the computer science practices used in seismic engineering. He looks forward to collaborating with people from various disciplines in a fun and energetic environment. In his free time, Ajinkya enjoys playing Cricket, Badminton, and watching anime." />
-                
-                <Profile 
-                  image="leads-2022-2023/hayden.jpeg" 
-                  memberName="Hayden Groer" 
-                  role="Digital Solution Specialist" 
-                  discipline="Industrial Engineering, 2nd year + PEY"
-                  linkedin="https://www.linkedin.com/in/hayden-groer-48a7a5242/"
-                  blurb="Hayden joined the Seismic Design Team to learn new coding technical skills and to learn how to work on software projects as part of a team. He is looking forward to maximizing structural efficiency and enhancing his project management and 3D modelling skills. Hayden is excited about connecting with team members from various disciplines and faculties. In his free time, he likes to play basketball and engage in NBA analytics." />
-
-                <Profile 
-                  image="leads-2022-2023/ryan.jpeg" 
-                  memberName="Ryan Philip"
-                  role="Digital Solution Specialist" 
-                  discipline="Computer Engineering, 2nd year + PEY"
-                  linkedin="https://www.linkedin.com/in/ryan-philip-917a05247"
-                  blurb="Ryan is a 2nd Year ECE student and joined UTSD in order to gain valuable experience working with a team to complete a large project. He is also interested in learning various optimization algorithms as well work with people from different disciplines. His goal is to learn a lot about structural engineering, which is quite different from ECE, and to make a meaningful contribution to the team. " />
-
-                <Profile 
-                  image="leads-2022-2023/catherine.jpeg" 
-                  memberName="Catherine Li" 
-                  role="Digital Solution Specialist" 
-                  discipline="Computer Engineering, 2nd year + PEY"
-                  linkedin="https://www.linkedin.com/in/catherine-li-/"
-                  blurb="Catherine was in Track One engineering in first year, and while she eventually chose computer engineering, civil engineering was a close second choice for her because of her love for structures and hands-on projects. At UTSD, she is eager to combine her love for programming with her interests in structures. In her free time, Catherine loves to build jigsaw puzzles, run, or hike with her dog." />
+                  blurb="Ajinkya joined the Seismic Design Team to learn the basics of structural design and the computer science practices used in seismic engineering. He looks forward to collaborating with people from various disciplines in a fun and energetic environment. In his free time, Ajinkya enjoys playing Cricket, Badminton, and watching anime."
+                />
+                <Profile
+                  image="leads-2023-2024/michael.jpg"
+                  memberName="Michael (Viet Minh) Nguyen"
+                  role="Digital Solution Specialist"
+                  discipline="ECE2T5 + PEY"
+                  linkedin="https://www.linkedin.com/in/nvmichael/"
+                  blurb="Michael was looking to gain experience in web & software development. Knowing that UTSD members are very supportive and are willing to help him learn new programming skills, Michael was very interested and applied to join the team. He’s looking forward to learn and apply 3D modelling to the team’s websites and projects. He likes pineapple pizza."
+                />
               </div>
             </div>
-
+            {/* 
             <div className="row mb-5 mr-2 ml-2">
               <h2 className="big-font text-dark mb-5"> Multimedia </h2>
               <div className="row">
-                <Profile 
-                  image="leads-2022-2023/meg sarah.jpeg" 
-                  memberName="Meg Sarah Melendres" 
-                  role="Media and Graphic Designer" 
-                  discipline="Engineering Science (Infrastructure Option), 3rd year + PEY"
-                  linkedin="https://www.linkedin.com/in/meg-sarah-melendres-2578541b1"
-                  blurb="Meg was interested in joining as the concept of building a tower using woods appealed to her. It was similar to when she made an Eiffel Tower using matchsticks. Through her position as a Media and Graphic Designer, she would want to promote the amazing work the team is doing to encourage more people to join the team. Aside from her role, she also expects to learn the technicalities of designing buildings and pick up some technical skills if an opportunity comes. Meg is currently in her PEY in Alberta and has been hiking. Every time she gets home, she learns she always rips her pants on hikes.  " />
-
-                <Profile 
-                  image="leads-2022-2023/sodaba.jpeg" 
-                  memberName="Sodaba Nooristani" 
-                  role="Media and Graphic Designer" 
-                  discipline="Civil Engineering, 2nd year + PEY"
-                  linkedin="https://www.linkedin.com/in/sodaba-nooristani-6453611b5/"
-                  blurb="Sodaba joined UTSD in 2022. She is interested in the basics of structural engineering, and design. She wishes to use her position to promote the team's projects and inspire future team members to join. Sodaba hopes to learn the technicalities of seismic design, and to be apart of team effort to solve future problems. In her free time, she enjoys reading, listening to music and playing the violin. "/>
-
-                <Profile 
-                  image="leads-2022-2023/dana.jpg" 
-                  memberName="Dana Aladallal" 
-                  role="Social Manager" 
-                  discipline="Civil Engineering, 3rd year + PEY"
-                  linkedin="https://www.linkedin.com/in/dana-aladallal-59406b225"
-                  blurb="Dana has always been fascinated by the science behind earthquake engineering and has always wanted to explore the technology and design around it. As a social manager, she aims to connect and motivate the team in order to achieve outstanding results. A personal fun fact would be her love for the colour green!" />
+                
               </div>
-            </div>
+            </div> */}
 
             <div className="row mb-5 mr-2 ml-2">
               <h2 className="big-font text-dark mb-5"> Finance </h2>
-              <div className="row">                   
-                <Profile 
-                  image="leads-2022-2023/bo.jpg" 
-                  memberName="Bo Zhao" 
-                  role="Finance & Sponsorship Manager" 
-                  discipline="Civil Engineering, 4th year + PEY"
-                  linkedin="https://www.linkedin.com/in/bo-zhao-70bb36175/"
-                  blurb="Bo Zhao is a student interested in architecture, construction and building science engineering. This is his fourth year as a member of the UTSD and has helped out in different functions such as graphics/media, design & analysis, construction and architecture. He continues to be involved with the UTSD as the community within the club is what keeps bringing him back. As he is away on PEY, he will take a more limited role in supporting the club as a finance/sponsorship lead. " />
-                
-                <Profile 
-                  image="leads-2022-2023/adam.jpeg" 
-                  memberName="Yikai (Adam) Liu" 
-                  role="Finance & Sponsorship Manager" 
-                  discipline="Civil Engineering, 4th year"
-                  linkedin="https://www.linkedin.com/in/yikai-liu-418825198"
-                  blurb="Adam joined seismic team in second year as a general member, and has been involved in both Design and Analysis and Construction team. This year He hopes to make the team successful through funding initiatives and sponsorships, and he is excited to work with this innovative team this year." />
-
-                <Profile 
-                  image="leads-2022-2023/sunny.jpg" 
-                  memberName="Yuyang (Sunny) Liu" 
-                  role="Finance & Sponsorship Manager" 
-                  discipline="Rotman Commerce, 3rd year"
-                  blurb="Sunny joined UTSD to help sponsors team to facilitate sponsorships and to communicate with potential and signed sponsors. His will and expectation is that UTSD gathers enough funds to support their project on the competition. Fun fact: He likes playing all kinds of sports, particularly badminton, Ping-Pong, tennis, and basketball." />                  
+              <div className="row">
+                <Profile
+                  image="leads-2023-2024/sodaba.jpg"
+                  memberName="Sodaba Nooristani"
+                  role="Finance & Sponsorship Manager"
+                  discipline="CIV2T5+PEY"
+                  linkedin="https://www.linkedin.com/in/sodaba-nooristani-6453611b5/"
+                  blurb="As a CIV2T5 student pursuing a business minor, the Finance position at UTSD is perfect for Sodaba. She looks forward to working with the team to contribute reaching the teams goals, as well as learn from her teammates. In her free time, Sodaba likes to read, bike and find new parts of her ears to pierce."
+                />
+                <Profile
+                  image="leads-2023-2024/arman.jpg"
+                  memberName="Arman Bains"
+                  role="Finance & Sponsorship Manager"
+                  discipline="Civil Engineering, 3rd year + PEY"
+                  linkedin="https://www.linkedin.com/in/arman-singh-bains"
+                  blurb="Arman has been a part of the design team since the last three years and have enjoyed being  a member each year. Last year he was one of the Junior DN&A in the team and the year before that the Finance Executive. This year he has the opportunity to be the Sponsorship Executive for the team and looks forward to networking and bringing in new sponsors and funding. A fun fact about him is that he enjoys biking on the Humber trail when the weather permits."
+                />
               </div>
             </div>
-
           </div>
         </Container>
         <Footer />
