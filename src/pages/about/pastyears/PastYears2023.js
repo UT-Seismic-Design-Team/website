@@ -13,7 +13,12 @@ export default class Sponsors2023 extends Component {
         <Description
           align="left"
           title="2023"
-          description="The 2023 competition in Salt Lake City was a challenging yet rewarding experience. We have learned and explored different new design and construction techniques to transition from a wider to a narrower section in our tower. At the end, even though our tower could not be delivered to the competition due to unexpected shipping delays, we scored 100% in the Architecture category and won the Best Architecture Award which was a significant achievement."
+          description="Despite facing challenges during the second ground motion when our sky bridges disconnected, we are excited to share our achievements:
+Highest Bonus for Damper Design: We proudly earned the top bonus for our innovative damper design.
+4th Place in Architecture: Our architectural design impressed the judges, earning us a top-four spot.
+4th Place in Poster Presentation: Our informative and visually appealing poster also secured 4th place.
+6th Place in Communication: Our effective communication skills earned us 6th place in this category.
+95% Score in Proposal Writing: Our detailed and compelling proposal received a 95% score."
         />
         <div className="viewer-center">
           <iframe

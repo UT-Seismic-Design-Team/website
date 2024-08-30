@@ -4,7 +4,7 @@ import gallery from "../../../util/gallery-organization.json";
 import "./pastYears.css";
 
 const SPECKLE_MODEL_STREAM =
-  "https://speckle.xyz/embed?stream=499884e71d&commit=e8dface33a&c=%5B22.58372%2C57.25625%2C78.99198%2C-26.65825%2C8.01428%2C29.75%2C0%2C1%5D&hidesidebar=true";
+  "https://app.speckle.systems/projects/6c9ceaa76b/models/09fa2777c5#embed=%7B%22isEnabled%22%3Atrue%7D";
 
 export default class Sponsors2024 extends Component {
   render() {
@@ -13,7 +13,10 @@ export default class Sponsors2024 extends Component {
         <Description
           align="left"
           title="2024"
-          description="The 2024 competition in Salt Lake City was a challenging yet rewarding experience. We have learned and explored different new design and construction techniques to transition from a wider to a narrower section in our tower. At the end, even though our tower could not be delivered to the competition due to unexpected shipping delays, we scored 100% in the Architecture category and won the Best Architecture Award which was a significant achievement."
+          description="From April 9-12, our team participated in the 21st Annual EERI Seismic Design Competition in Seattle. We are thrilled to share our achievements from this exciting event:
+Top Damper Design Bonus: For the second year in a row, we earned the top prize for our innovative damper design.
+2nd Place in Seismic Performance Prediction: Our team's prediction accuracy was among the best, securing us the second spot in this category.
+13th Overall: Out of 40 competing teams, we proudly ranked 13th overall."
         />
         <div className="viewer-center">
           <iframe
